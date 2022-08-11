@@ -23,7 +23,7 @@
   "rules": {
     "indent": [
       "error",
-      2
+      4
     ],
     "linebreak-style": [
       "error",
@@ -36,6 +36,8 @@
     "semi": [
       "error",
       "always"
-    ]
+    ],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", "tsx"] }]
   }
 }
