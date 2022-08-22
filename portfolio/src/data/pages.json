@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "label": "Projetos",
+        "to": "/projects",
+        "icon": "RiGitRepositoryFill"
+    },
+    {
+        "id": 2,
+        "label": "Sobre",
+        "to": "/",
+        "icon": "RiUserStarFill"
+    },
+    {
+        "id": 3,
+        "label": "Contato",
+        "to": "/contact",
+        "icon": "RiMailAddFill"
+    }
+]
