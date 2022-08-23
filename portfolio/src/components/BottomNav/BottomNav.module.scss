@@ -1,0 +1,59 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.menu {
+
+    background-color: $purple;
+    display: none;
+
+    @media (max-width: $desktop_xsm) {
+        display: block;
+    }
+    @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+        display: none;
+    }
+    @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+        display: none;
+    }
+
+    &__list{
+    
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: $white;
+        text-align: center;
+        background-color: $purple;
+
+        &__wrapper {
+
+            width: 33.33%;
+
+            &__item{
+                display: flex;
+                width: 100%;
+                font-size: 2.5em;
+                color: #F2F2F2;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                height: 10vh;
+            }
+    
+            &__item--selected{
+                font-size: 3em;
+                background-color: $light-purple;
+            }
+
+        }
+
+    }
+
+}
