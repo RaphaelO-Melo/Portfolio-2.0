@@ -1,0 +1,53 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.content{
+
+    margin: 50px auto;
+    padding: 30px;
+    max-width: 450px;
+    min-width: 250px;
+    text-align: center;
+    font-style: normal;
+
+    &__title{
+
+        margin: 0;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 60px;
+        color: $black;
+    
+    }
+
+    &__photo{
+        
+        margin: 25px 0;
+
+        img{
+            width: 80%;
+            background-color: $purple;
+            border: 3px solid $purple;
+            border-radius: 50%;
+        }
+
+    }
+
+    &__text{
+
+        margin: 0;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+
+        &__highlight{
+
+            color: $orange;
+            font-weight: 600;
+
+        }
+
+    }
+
+}

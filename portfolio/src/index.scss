@@ -18,3 +18,7 @@ code {
 a{
   text-decoration: none;
 }
+
+.container{
+  min-width: $min-screen-size;
+}
