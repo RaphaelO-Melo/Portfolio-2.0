@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Formação",
+        "text": "Graduado em <strong>Programação de Jogos Digitais</strong> desde 2020, onde tive meu primeiro contato com desenvolvimento web. Entretanto meu primeiro contato com programação foi em 2015 com um Arduino Uno que usa uma linguagem própria baseada no C++",
+        "image": "./assets/placeholder.png",
+        "to": "/graduation"
+    },
+    {
+        "id": 2,
+        "title": "Experiência",
+        "text": "Desenvolvedor full stack júnior desde Outubro de 2020 na <strong>Bronzato Tecnologia LTDA.</strong> local onde atuei no desenvolvimento de interfaces, backoffices, integrações e criação APIs REST, gestão e criação de bancos de dados, integrações com sistemas financeiros, entre outras atividades",
+        "image": "./assets/placeholder.png",
+        "to": "/experience"
+    },
+    {
+        "id": 3,
+        "title": "Competências",
+        "text": "HTML5, CSS3, Javascript ES6, PHP, Java, JQuery, Bootstrap, REST, Git e MySQL são algumas das competências que desenvolvi durante minha experiência profisisonal, porém também estou estudando React, Typescript e NodeJs no meu tempo livre",
+        "image": "./assets/placeholder.png",
+        "to": "/competences"
+    }
+]

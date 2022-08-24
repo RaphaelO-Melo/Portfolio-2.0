@@ -1,0 +1,50 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.content{
+
+    background-color: red;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+
+    &__info{
+
+        background-color: blue;
+        width: 45%;
+
+        &__title{
+            background-color: oragne;
+        }
+
+        &__text{
+            background-color: purple;
+        }
+    
+    }
+
+    &__info--left{
+        text-align: left;
+    }
+
+    &__info--right{
+        text-align: right;
+    }
+
+    &__image{
+ 
+        background-color: cyan;
+        width: 45%;
+
+        img{
+            width: 100%;
+        }
+
+    }
+}
+
+.content--reverse{
+    flex-direction: row-reverse;
+}
