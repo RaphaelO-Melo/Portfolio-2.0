@@ -1,6 +1,7 @@
 import style from './Content.module.scss';
 import { AboutContent } from 'types/AboutContent';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
 export default function Content({id, title, text, image, to} : AboutContent){
     return (
@@ -8,28 +9,19 @@ export default function Content({id, title, text, image, to} : AboutContent){
             [style.content] : true,
             [style['content--reverse']] : id%2 === 0,
         })}>
-
-
-            <div className={classNames({
-                [style.content__info] : true,
-                [style['content__info--left']] : id%2 === 0,
-                [style['content__info--right']] :id%2 === 1
-            })}>
-
+            <div className={style.content__info}>
                 <h2 className={style.content__info__title}>
                     {title}
                 </h2>
                 <p className={style.content__info__text}>
                     {text}
                 </p>
-                <button>{to}</button>
-
-            </div>
-
-            
-
-            <div className={style.content__image}>
-                <img src={image} alt="title" />
+                <Link
+                    className={style.content__info__link} 
+                    to={to}
+                >
+                    SABER+
+                </Link>
             </div>
 
         </div>

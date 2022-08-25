@@ -2,14 +2,14 @@
     {
         "id": 1,
         "title": "Formação",
-        "text": "Graduado em <strong>Programação de Jogos Digitais</strong> desde 2020, onde tive meu primeiro contato com desenvolvimento web. Entretanto meu primeiro contato com programação foi em 2015 com um Arduino Uno que usa uma linguagem própria baseada no C++",
+        "text": "Graduado em Programação de Jogos Digitais desde 2020, onde tive meu primeiro contato com desenvolvimento web. Entretanto meu primeiro contato com programação foi em 2015 com um Arduino Uno que usa uma linguagem própria baseada no C++",
         "image": "./assets/placeholder.png",
         "to": "/graduation"
     },
     {
         "id": 2,
         "title": "Experiência",
-        "text": "Desenvolvedor full stack júnior desde Outubro de 2020 na <strong>Bronzato Tecnologia LTDA.</strong> local onde atuei no desenvolvimento de interfaces, backoffices, integrações e criação APIs REST, gestão e criação de bancos de dados, integrações com sistemas financeiros, entre outras atividades",
+        "text": "Desenvolvedor full stack júnior desde Outubro de 2020 na Bronzato Tecnologia LTDA. local onde atuei no desenvolvimento de interfaces, backoffices, integrações e criação APIs REST, gestão e criação de bancos de dados, integrações com sistemas financeiros, entre outras atividades",
         "image": "./assets/placeholder.png",
         "to": "/experience"
     },

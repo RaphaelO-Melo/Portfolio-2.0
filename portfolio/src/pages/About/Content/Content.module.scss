@@ -3,46 +3,74 @@
 
 .content{
 
-    background-color: red;
     display: flex;
     align-items: center;
-    max-width: 80%;
+    max-width: 85%;
+    height: 345px;
     margin: auto;
     justify-content: space-evenly;
 
     &__info{
 
-        background-color: blue;
-        width: 45%;
+        width: 65%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        @media (max-width: $desktop_md) {
+            width: 95%;
+        }
 
         &__title{
-            background-color: oragne;
+
+            margin: 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 55px;
+            color: $orange;
+
         }
 
         &__text{
-            background-color: purple;
+
+            margin: 30px 0;
+            font-size: 35px;
+            color: $black;
+            
+            @media (max-width: $desktop_sm) {
+                font-size: 24px;
+                background-color: red;
+            }
+
+            @media (max-width: $desktop_md) {
+                font-size: 30px;
+                background-color: red;
+            }
+
+        }
+
+        &__link{
+
+            background-color: $orange;
+            color: $white;
+            border-radius: 10px;
+            width: fit-content;
+            padding: 5px 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: auto;
+            font-size: 22px;
+
+        }
+
+        &__link:hover{
+            background-color: $brown;
         }
     
     }
 
-    &__info--left{
-        text-align: left;
-    }
-
-    &__info--right{
-        text-align: right;
-    }
-
-    &__image{
- 
-        background-color: cyan;
-        width: 45%;
-
-        img{
-            width: 100%;
-        }
-
-    }
 }
 
 .content--reverse{
