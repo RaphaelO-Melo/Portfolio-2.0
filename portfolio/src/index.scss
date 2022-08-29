@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import './styles/variables';
+@import './styles/breakpoints';
 
 body {
   background-color: $white;
@@ -7,7 +8,21 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: $font-size;
+  font-size: $font-size-desktop-xl;
+
+  @media (max-width: $desktop_md) {
+    font-size: $font-size-desktop-lg;
+  }
+  @media (max-width: $desktop_sm) {
+    font-size: $font-size-desktop-md;
+  }
+  @media (max-width: $desktop_xsm) {
+    font-size: $font-size-tablet;
+  }
+  @media (max-width: $mobile) {
+    font-size: $font-size-mobile;
+  }
+
 }
 
 code {

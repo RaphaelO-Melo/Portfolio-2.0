@@ -3,6 +3,18 @@
 
 .containerContent{
     
-    margin: 100px auto;
+    margin: 200px auto;
+    @media (max-width: $desktop_md) {
+        margin: 170px auto;
+    }
+    @media (max-width: $desktop_sm) {
+        margin: 170px auto;
+    }
+    @media (max-width: $desktop_xsm) {
+        margin: 150px auto;
+    }
+    @media (max-width: $mobile) {
+        margin: 90px auto;
+    }
     
 }
