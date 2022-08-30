@@ -3,7 +3,7 @@ import { AboutContent } from 'types/AboutContent';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 
-export default function Content({id, title, text, image, to} : AboutContent){
+export default function Content({id, title, text, to} : AboutContent){
     return (
         <div className={classNames({
             [style.content] : true,

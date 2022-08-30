@@ -9,7 +9,7 @@ export default function About(){
             <Introduction />
             {AboutContents.map(content => (
                 <section key={content.id} className={style.containerContent}>
-                    <Content id={content.id} title={content.title} text={content.text} image={content.image} to={content.to} />
+                    <Content id={content.id} title={content.title} text={content.text} to={content.to} />
                 </section>
             ))}
         </>

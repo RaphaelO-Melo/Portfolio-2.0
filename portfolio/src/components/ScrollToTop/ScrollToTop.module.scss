@@ -1,0 +1,28 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.wrapper{
+
+    position: relative;
+
+    &__button{
+
+        position: fixed;
+        bottom: 35px;
+        right: 35px;
+        z-index: 20;
+        
+        border: 4px solid $purple;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        color: $purple;
+        cursor: pointer;
+    }
+
+    &__button:hover{
+        background: $purple;
+        color: $white;
+    }
+
+}
