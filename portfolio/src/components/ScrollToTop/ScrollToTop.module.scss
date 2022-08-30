@@ -5,6 +5,10 @@
 
     position: relative;
 
+    @media (max-width: $desktop_xsm) {
+        display: none;
+    }
+
     &__button{
 
         position: fixed;

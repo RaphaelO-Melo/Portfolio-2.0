@@ -1,16 +1,35 @@
 import style from './ScrollToTop.module.scss';
 import { RiArrowUpSLine} from 'react-icons/ri';
+import { useEffect, useState } from 'react';
 
 export default function ScrollToTop(){
 
+    const [showingButton, setShowingButton] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if(window.scrollY > 350)
+                setShowingButton(true);
+            else
+                setShowingButton(false);
+        });
+    }, []);
+
+    function goToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
     return (
-        /*
-        <div className="top-to-btm">
-            <RiArrowUpCircleFill className="icon-position icon-style" />
-        </div>
-        */
         <div className={style.wrapper}>
-            <RiArrowUpSLine className={style.wrapper__button} />
+            {showingButton && (
+                <RiArrowUpSLine 
+                    className={style.wrapper__button} 
+                    onClick={() => goToTop()}
+                />
+            )}
         </div>
     );
 }
