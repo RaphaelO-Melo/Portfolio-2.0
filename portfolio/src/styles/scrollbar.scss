@@ -1,0 +1,15 @@
+@import './variables';
+@import './breakpoints';
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: $white;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $purple-50;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: $purple;
+}
