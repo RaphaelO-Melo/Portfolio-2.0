@@ -1,0 +1,55 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.wrapper{
+
+    background-color: $purple;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    @media (max-width: $desktop_sm) {
+        display: none;
+    }
+
+
+    &__text{
+
+        margin: 25px auto;
+
+        &__title{
+            margin: 0;
+            font-size: 0.8em;
+            font-weight: normal;
+        }
+
+        &__content{
+            margin: 0;
+            font-size: 0.7em;
+            font-weight: lighter;
+        }
+
+    }
+
+    &__links{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        align-content: center;
+        padding: 10px;
+        margin-bottom: 15px;
+
+        &__link{
+            display: flex;
+            color: $white;
+            margin: 0 15px;        
+        }
+
+    }
+
+}
