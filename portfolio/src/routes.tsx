@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import ScrollToTop from 'components/ScrollToTop';
 import Footer from 'components/Footer';
+import NotFound from 'pages/NotFound';
 
 export default function AppRouter(){
     return (
@@ -14,6 +15,7 @@ export default function AppRouter(){
                     <Route path='/'>
                         <Route index element={<About />}/>
                     </Route>
+                    <Route path='*' element={<NotFound />}/>
                 </Routes>
                 <ScrollToTop />
                 <BottomNav />
