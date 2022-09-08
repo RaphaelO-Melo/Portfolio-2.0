@@ -5,6 +5,7 @@ import About from './pages/About';
 import ScrollToTop from 'components/ScrollToTop';
 import Footer from 'components/Footer';
 import NotFound from 'pages/NotFound';
+import Graduation from 'pages/Graduation';
 
 export default function AppRouter(){
     return (
@@ -14,6 +15,7 @@ export default function AppRouter(){
                 <Routes>
                     <Route path='/'>
                         <Route index element={<About />}/>
+                        <Route path='graduation' element={<Graduation />}/>
                     </Route>
                     <Route path='*' element={<NotFound />}/>
                 </Routes>
