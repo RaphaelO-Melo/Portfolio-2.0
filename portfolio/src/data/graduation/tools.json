@@ -1,27 +1,27 @@
 [
     {
         "id": 1,
-        "tool": "Java",
+        "name": "Java",
         "icon": "java.svg"
     },
     {
         "id": 2,
-        "tool": "C#",
+        "name": "C#",
         "icon": "c#.svg"
     },
     {
         "id": 3,
-        "tool": "HTML",
+        "name": "HTML",
         "icon": "html.svg"
     },
     {
         "id": 4,
-        "tool": "CSS",
+        "name": "CSS",
         "icon": "css.svg"
     },
     {
         "id": 5,
-        "tool": "Javascript",
+        "name": "Javascript",
         "icon": "javascript.svg"
     }
 ]

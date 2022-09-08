@@ -2,5 +2,9 @@
     {
         "id": 1,
         "type": "Faculdade"
+    },
+    {
+        "id": 2,
+        "type": "Curso Técnico"
     }
 ]
