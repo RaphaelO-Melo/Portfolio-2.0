@@ -1,30 +1,44 @@
-import courseTypes from 'data/graduation/courseTypes.json';
-import institutions from 'data/graduation/institutions.json';
 import projects from 'data/graduation/projects.json';
 import tools from 'data/graduation/tools.json';
-import { Project } from 'types/Project';
+import institutions from 'data/graduation/institutions.json';
 import { Tool } from 'types/Tool';
 
 export const convertToBrazilDate = (date: string) : string => {
     return date.split('-').reverse().join('/');
 };
 
-export const getCourseTypeById = (id: number) : string|undefined => {
-    const found = courseTypes.find(courseType => courseType.id === id);
-    return found?.type;
+export const getIconsListFromCourse = (projectId: number) : Tool[] => {
+    
+    const found = projects.find(currentProject => currentProject.id === projectId);
+    if(found != undefined){
+        return found.tools.map(currentTool => (getTool(currentTool)));
+    } else {
+        return [];
+    }
+
 };
 
-export const getInstitutionById = (id: number) : string|undefined => {
+export const getTool = (toolId: number) : Tool => {
+
+    const found = tools.find(currentTool => currentTool.id === toolId);
+    if(found === undefined){
+        return {
+            'id': 0,
+            'name': 'Desconhecido',
+            'icon': 'question.svg'
+        };
+    } else {
+        return found;
+    }
+
+};
+
+export const getInstitutionName = (id: number): string => {
+
     const found = institutions.find(institution => institution.id === id);
-    return found?.name;
-};
+    if(found != undefined)
+        return found.name;
+    else
+        return 'Desconhecido';
 
-export const getProjectById = (id: number) : Project|undefined => {
-    const found = projects.find(project => project.id === id);
-    return found;
-};
-
-export const getToolById = (id: number) : Tool|undefined => {
-    const found = tools.find(tool => tool.id === id);
-    return found;
 };

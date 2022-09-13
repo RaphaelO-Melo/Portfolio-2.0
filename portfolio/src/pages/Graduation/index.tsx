@@ -1,5 +1,5 @@
 import courses from 'data/graduation/courses.json';
-import Course from './CourseContainer';
+import Course from './CourseCard';
 export default function Graduation() {
     return (
         <section>
