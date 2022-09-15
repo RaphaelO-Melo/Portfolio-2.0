@@ -42,3 +42,13 @@ export const getInstitutionName = (id: number): string => {
         return 'Desconhecido';
 
 };
+
+export const getProjectName = (id: number): string => {
+    
+    const found = projects.find(project => project.id === id);
+    if(found != undefined)
+        return found.name;
+    else
+        return 'Desconhecido';
+
+};

@@ -1,6 +1,7 @@
 import { Course } from 'types/Course';
 import style from './CourseCard.module.scss';
-import { getIconsListFromCourse, getInstitutionName, convertToBrazilDate } from 'common/Library';
+import { getInstitutionName, getProjectName, convertToBrazilDate } from 'common/Library';
+import { Link } from 'react-router-dom';
 
 export default function CourseContainer({
     id,
@@ -13,43 +14,37 @@ export default function CourseContainer({
     link,
     projects
 }: Course){
-    
-    const icons = getIconsListFromCourse(id);
+
     const institutionName = getInstitutionName(institution);
 
     return (
         <div className={style.card}>
             <div className={style.card__header}>
                 <h2 className={style.card__header__name}>{name}</h2>
-                <span className={style.card__header__icons}>
-                    {
-                        icons.map((icon, index) => (
-                            icon.name
-                        ))
-                    }
+                <span className={style.card__header__institution}>
+                    {institutionName}
+                </span>
+                <span className={style.card__header__date}>
+                    {convertToBrazilDate(start_date)} - {convertToBrazilDate(final_date)}
                 </span>
             </div>
             <div className={style.card__body}>
-
-                <div className={style.card__body__group}>
-                    <div className={style.card__body__group__info}>
-                        {institutionName}
-                    </div>
+                <p className={style.card__body__description}>
+                    {description}
+                </p>
+                <div className={style.card__body__projects}>
+                    {
+                        projects.map((project, index) => 
+                            <Link
+                                key={index}
+                                className={style.card__body__projects__project} 
+                                to={'/projects/'+project}
+                            >
+                                {getProjectName(project)}
+                            </Link>
+                        )
+                    }
                 </div>
-
-                <div className={style.card__body__group}>
-                    <div className={style.card__body__group__info}>
-                        {convertToBrazilDate(start_date)} - {convertToBrazilDate(final_date)}
-                    </div>
-                </div>
-                
-                <div className={style.card__body__group}>
-                    <div className={style.card__body__group__info}>
-                        {description}
-                    </div>
-                </div>
-
-
             </div>
         </div>
     );
