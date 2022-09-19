@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "name": "Tecnologia em Jogos Digitais",
+        "name": "Tecnólogo em Jogos Digitais",
         "type": 1,
         "institution": 1,
-        "start_date": "2000-01-01",
-        "final_date": "2000-12-31",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis convallis tellus id interdum velit laoreet. Sed felis eget velit aliquet sagittis id consectetur. Phasellus vestibulum lorem sed risus. Nec tincidunt praesent semper feugiat nibh sed pulvinar. Dictum varius duis at consectetur. Ultrices neque ornare aenean euismod. Vulputate mi sit amet mauris commodo quis imperdiet. Bibendum at varius vel pharetra vel turpis nunc eget lorem. Felis eget nunc lobortis mattis aliquam. Consectetur libero id faucibus nisl tincidunt eget nullam non.",
-        "link": "https://www.sp.senac.br/graduacao/tecnologia-em-jogos-digitais",
+        "start_date": "2018-01-01",
+        "final_date": "2020-12-31",
+        "description": "Graduação tecnológica onde foi possível ter contato com diversas linguagens de programação como Java, C# e Javascript. Ao longo do curso tive contato intensivo com algoritmos e programação orientada a objetos. Foram desenvolvidos diversos em Java e em Unity (C#) para solidificar meus conhecimentos básicos em desenvolvimento.",
+        "link": "https://www.sp.senac.br/cursos-tecnicos/curso-tecnico-em-programacao-de-jogos-digitais",
         "projects": [1, 2, 3, 4, 5]
     }
 ]

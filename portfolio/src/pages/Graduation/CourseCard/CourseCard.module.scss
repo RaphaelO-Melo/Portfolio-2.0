@@ -35,9 +35,20 @@
         color: $black;
 
         &__name{
+
             margin: 0;
             font-size: 1.4em;
             font-weight: bolder;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+            &__type{
+                margin-left: 10px;
+                color: $purple;
+            }
+
         }
 
         &__institution{
@@ -81,10 +92,6 @@
                 width: fit-content;
                 padding: 5px 10px;
                 font-size: 0.75em;
-
-                @media (max-width: $desktop_md) {
-                    width: 90%;
-                }
             
             }
 
