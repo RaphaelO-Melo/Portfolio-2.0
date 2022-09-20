@@ -3,5 +3,25 @@
         "id": 1,
         "name": "Centro Universitário Senac",
         "link": "https://www.sp.senac.br/jsp/webcas/default.jsp?newsID=a21634.htm&testeira=722&unit=CAS,CAJ,CAP&sub="
+    },
+    {
+        "id": 2,
+        "name": "Etec Takashi Morita",
+        "link": "https://www.etectm.com/"
+    },
+    {
+        "id": 3,
+        "name": "Digital Innovation One Inc.",
+        "link": "https://www.dio.me/"
+    }, 
+    {
+        "id": 4,
+        "name": "Udemy",
+        "link": "https://www.udemy.com/"
+    }, 
+    {
+        "id": 5,
+        "name": "Alura",
+        "link": "https://www.alura.com.br/"
     }
 ]

@@ -1,6 +1,17 @@
 [
     {
         "id": 1,
+        "name": "Curso Técnico em Eletrônica",
+        "type": 1,
+        "institution": 2,
+        "start_date": "2014-01-01",
+        "final_date": "2015-12-31",
+        "description": "Curso técnico onde tive o primeiro contato com programação. A formação prepara profissionais para desenvolver, realizar manutenções e instalações de dispositivos eletrônicos. Ao longo do curso tive contato com a linguagem Assembly para microcontroladores e também com C++ para realizar a programação em um Arduino.",
+        "link": "https://www.sp.senac.br/cursos-tecnicos/curso-tecnico-em-programacao-de-jogos-digitais",
+        "projects": []
+    },
+    {
+        "id": 2,
         "name": "Tecnólogo em Jogos Digitais",
         "type": 1,
         "institution": 1,
@@ -9,5 +20,27 @@
         "description": "Graduação tecnológica onde foi possível ter contato com diversas linguagens de programação como Java, C# e Javascript. Ao longo do curso tive contato intensivo com algoritmos e programação orientada a objetos. Foram desenvolvidos diversos em Java e em Unity (C#) para solidificar meus conhecimentos básicos em desenvolvimento.",
         "link": "https://www.sp.senac.br/cursos-tecnicos/curso-tecnico-em-programacao-de-jogos-digitais",
         "projects": [1, 2, 3, 4, 5]
+    },
+    {
+        "id": 3,
+        "name": "Programação para internet com HTML5/CSS3",
+        "type": 2,
+        "institution": 3,
+        "start_date": "2020-04-01",
+        "final_date": "2020-04-30",
+        "description": "Curso introdutório para desenvolvimento web. Nele foi possível ter um contato um pouco mais aprofundado com HTML5, CSS3 e Javascript, ferramentas que se mostraram muito úteis ao longo dos cursos posteriores.",
+        "link": "https://web.dio.me/course/programando-interfaces-com-html5-e-css3/learning/44c5466b-94c4-449a-a29e-1cee67194552",
+        "projects": []
+    },
+    {
+        "id": 4,
+        "name": "Desenvolvimento Web Completo 2020",
+        "type": 2,
+        "institution": 4,
+        "start_date": "2020-05-01",
+        "final_date": "2020-09-30",
+        "description": "Curso focado no desenvolvimento web utilizando HTML, CSS e PHP. Nele solidifiquei meus conhecimentos básicos para web através de diversos projetos onde foi possível explorar os conceitos iniciais de cada uma das tecnologias apresentadas.",
+        "link": "https://www.udemy.com/course/web-completo/",
+        "projects": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
     }
 ]

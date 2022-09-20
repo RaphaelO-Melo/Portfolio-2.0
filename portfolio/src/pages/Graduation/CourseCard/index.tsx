@@ -3,7 +3,7 @@ import style from './CourseCard.module.scss';
 import { getInstitutionName, getProjectName, convertToBrazilDate } from 'common/Library';
 import { Link } from 'react-router-dom';
 import { FaGraduationCap } from 'react-icons/fa';
-import { GrCertificate } from 'react-icons/gr';
+import { TbCertificate } from 'react-icons/tb';
 
 export default function CourseContainer({
     id,
@@ -24,7 +24,7 @@ export default function CourseContainer({
             <div className={style.card__header}>
                 <h2 className={style.card__header__name}>
                     {name}
-                    {type == 1 ? <FaGraduationCap className={style.card__header__name__type}  /> : <GrCertificate className={style.card__header__name__type}/>}
+                    {type == 1 ? <FaGraduationCap className={style.card__header__name__type}  /> : <TbCertificate className={style.card__header__name__type}/>}
                 </h2>
                 <span className={style.card__header__institution}>
                     {institutionName}
