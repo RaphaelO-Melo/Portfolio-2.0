@@ -42,5 +42,94 @@
         "description": "Curso focado no desenvolvimento web utilizando HTML, CSS e PHP. Nele solidifiquei meus conhecimentos básicos para web através de diversos projetos onde foi possível explorar os conceitos iniciais de cada uma das tecnologias apresentadas.",
         "link": "https://www.udemy.com/course/web-completo/",
         "projects": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+    },
+    {
+        "id": 5,
+        "name": "Git e Github: controle e compartilhe seu código",
+        "type": 2,
+        "institution": 5,
+        "start_date": "2022-04-26",
+        "final_date": "2020-04-28",
+        "description": "Curso introdutório aos conhecimentos básicas no Git. Nele pude compreender melhor os momentos de realizar Commits, como dividir as Branches, como agir para resolver conflitos e também como gerar Releases.",
+        "link": "https://www.alura.com.br/curso-online-git-github-controle-de-versao",
+        "projects": []
+    },
+    {
+        "id": 6,
+        "name": "Git e Github: estratégias de ramificação, Conflitos e Pull Requests",
+        "type": 2,
+        "institution": 5,
+        "start_date": "2022-04-29",
+        "final_date": "2022-05-03",
+        "description": "Curso focado no desenvolvimento de skills mais intermediárias no Git. Nele pude entender o que são as Issues, Pull Requests e Cherry-Pick. Também tive meu primeiro contanto com o GitFlow e com ferramentas como o GitHub Desktop e o GitKraken.",
+        "link": "https://cursos.alura.com.br/course/git-github-branching-conflitos-pull-requests",
+        "projects": []
+    },
+    {
+        "id": 7,
+        "name": "React: escrevendo com Typescript",
+        "type": 2,
+        "institution": 5,
+        "start_date": "2022-05-03",
+        "final_date": "2022-05-18",
+        "description": "Curso introdutório de React com Javascript. Foi o meu primeiro contato com ambas e pude adquirir conhecimentos básicos sobre Components, Props e States. Também foi onde tive meu primeiro contato com SASS.",
+        "link": "https://cursos.alura.com.br/course/react-modernizando-escrever-typescript",
+        "projects": [19]
+    },
+    {
+        "id": 8,
+        "name": "React: lidando com arquivos estáticos",
+        "type": 2,
+        "institution": 5,
+        "start_date": "2022-05-24",
+        "final_date": "2022-05-31",
+        "description": "Curso desenvolvido para ensinar a lidar com arquivos estáticos no React. Além de aprender a manipular os arquivos armazenados de forma estática no projeto, também aprendi a realizar importações externas, como criar filtros e também ordenadores.",
+        "link": "https://cursos.alura.com.br/course/react-arquivos-estaticos",
+        "projects": [20]
+    },
+    {
+        "id": 9,
+        "name": "React: conhecendo a biblioteca React Router",
+        "type": 2,
+        "institution": 5,
+        "start_date": "2022-06-08",
+        "final_date": "2022-06-16",
+        "description": "Curso montado para instruir sobre o uso da Biblioteca Router do React. Nele tive o primeiro contanto com o desenvolvimento de uma SPA, aprendi a utilizar o ESLint para padronizar os projetos, estruturar a base das rotas utilizando a biblioteca e utilizar os Hooks de forma mais abrangente.",
+        "link": "https://cursos.alura.com.br/course/react-biblioteca-react-router",
+        "projects": [20]
+    },
+    {
+        "id": 10,
+        "name": "React Router: navegação em uma SPA",
+        "type": 2,
+        "institution": 5,
+        "start_date": "2022-06-20",
+        "final_date": "2022-06-27",
+        "description": "Curso realizado para me habituar melhor com a estrutura de uma SPA. Ainda utilizando a biblioteca React Router, aprimorei meus conhecimentos sobre a criação e estruturação de rotas, páginas 404 e menus de navegação.",
+        "link": "https://cursos.alura.com.br/course/react-router-navegacao-spa",
+        "projects": [21]
+    },
+    {
+        "id": 11,
+        "name": "React: gerenciando estado com Recoil",
+        "type": 2,
+        "institution": 5,
+        "start_date": "2022-06-28",
+        "final_date": "2022-04-30",
+        "description": "Curso introdutório da biblioteca Recoil. Nele tive o primeiro contato com uma ferramenta para gerenciar os estados do React e evitar o Prop Drilling. Utilizei meus primeiros Hooks customizados além de praticar o Clean Code e criar seletores assíncronos.",
+        "link": "https://cursos.alura.com.br/course/react-gerenciando-estado-recoil",
+        "projects": [22]
+        
+    },
+    {
+        "id": 12,
+        "name": "React: gerenciamento de estados globais com ContextAPI",
+        "type": 2,
+        "institution": 5,
+        "start_date": "2022-07-18",
+        "final_date": "2022-08-15",
+        "description": "Curso focado em ensinar a gerenciar os estados da apliação de maneira nativa no React. Através do ContextAPI aprendi como é possível criar contextos diferentes dentro da aplicação de maneira que o código do projeto permaneça limpo e os componentes possam acessar de maneira prática os estados que utilizam.",
+        "link": "https://cursos.alura.com.br/course/react-context-estados-globais-contextapi",
+        "projects": [23]
     }
 ]
