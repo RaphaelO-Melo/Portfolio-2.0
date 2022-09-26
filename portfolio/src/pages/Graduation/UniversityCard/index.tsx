@@ -1,9 +1,10 @@
 import { Course } from 'types/Course';
-import style from './CourseCard.module.scss';
+import style from './UniversityCard.module.scss';
 import { getInstitutionName, getProjectName, convertToBrazilDate } from 'common/Library';
 import { Link } from 'react-router-dom';
+import { FaGraduationCap } from 'react-icons/fa';
 
-export default function CourseCard({
+export default function UniversityCard({
     id,
     name,
     type,
@@ -19,21 +20,18 @@ export default function CourseCard({
 
     return (
         <div className={style.card}>
-
             <div className={style.card__header}>
                 <h2 className={style.card__header__name}>
                     {name}
+                    <FaGraduationCap className={style.card__header__name__type}  /> 
                 </h2>
-                <div className={style.card__header__subheader}>
-                    <span className={style.card__header__subheader__institution}>
-                        {institutionName}
-                    </span>
-                    <span className={style.card__header__subheader__date}>
-                        {convertToBrazilDate(start_date)} - {convertToBrazilDate(final_date)}
-                    </span>
-                </div>
+                <span className={style.card__header__institution}>
+                    {institutionName}
+                </span>
+                <span className={style.card__header__date}>
+                    {convertToBrazilDate(start_date)} - {convertToBrazilDate(final_date)}
+                </span>
             </div>
-
             <div className={style.card__body}>
                 <p className={style.card__body__description}>
                     {description}
