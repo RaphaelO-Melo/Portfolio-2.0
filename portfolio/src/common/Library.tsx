@@ -2,6 +2,7 @@ import projects from 'data/graduation/projects.json';
 import tools from 'data/graduation/tools.json';
 import institutions from 'data/graduation/institutions.json';
 import { Tool } from 'types/Tool';
+import { Project } from 'types/Project';
 
 export const convertToBrazilDate = (date: string) : string => {
     return date.split('-').reverse().join('/');
@@ -50,5 +51,26 @@ export const getProjectName = (id: number): string => {
         return found.name;
     else
         return 'Desconhecido';
+
+};
+
+export const getProject = (id: number): Project => {
+
+    const found = projects.find(currentProject => currentProject.id === id);
+
+    if(found === undefined){
+        return {
+            'id': 0,
+            'name': 'Desconhecido',
+            'description': 'Desconhecido',
+            'image': '',
+            'link': '',
+            'institution': 0,
+            'tools': []
+        };
+
+    } else {
+        return found;
+    }
 
 };

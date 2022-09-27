@@ -1,0 +1,43 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.card{
+    
+    background-color: red;
+    margin: 75px;
+    padding: 40px;
+
+    &__image{
+
+        background-color: blue;
+
+        width: 55%;
+        max-width: 800px;
+        margin: 10px auto;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+        }
+
+    }
+
+    &__content{
+
+        background-color: bisque;
+
+        &__name{
+            background-color: rebeccapurple;
+            text-align: center;
+        }
+
+        &__description{
+            background-color: aquamarine;
+        }
+
+    }
+
+}

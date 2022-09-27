@@ -42,7 +42,7 @@ export default function UniversityCard({
                             <Link
                                 key={index}
                                 className={style.card__body__projects__project} 
-                                to={'/projects/'+project}
+                                to={'/project/'+project}
                             >
                                 {getProjectName(project)}
                             </Link>
