@@ -3,13 +3,15 @@
 
 .card{
     
-    background-color: red;
-    margin: 75px;
+    margin: 75px auto;
     padding: 40px;
+    max-width: 1200px;
+
+    @media (max-width: $desktop_md) {
+        width: 100%;
+    }
 
     &__image{
-
-        background-color: blue;
 
         width: 55%;
         max-width: 800px;
@@ -19,19 +21,64 @@
         justify-content: center;
         align-items: center;
 
-        img{
-            width: 100%;
+        @media (max-width: $desktop_md) {
+            width: 80%;
+        }    
+
+        &__container{
+
+            position: relative;
+            text-align: center;
+            display: flex;
+            
+            img{
+                width: 100%;
+                box-shadow: $soft-shadow;
+                border-radius: 5px;
+            }
+        
+            span{
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: none;
+                align-items: center;
+                justify-content: space-evenly;
+
+                p{
+                    margin: 0;
+                    margin-right: 8px;
+                    color: $white;
+                }
+
+            }
+
         }
 
+        &__container:hover {
+            
+            img{
+                filter: invert(46%) sepia(64%) saturate(2051%) hue-rotate(220deg) brightness(91%) contrast(86%);
+            }
+
+            span{
+                display: flex;
+            }
+
+        }
+        
+        
     }
 
     &__content{
 
         background-color: bisque;
+        text-align: center;
 
         &__name{
             background-color: rebeccapurple;
-            text-align: center;
         }
 
         &__description{
