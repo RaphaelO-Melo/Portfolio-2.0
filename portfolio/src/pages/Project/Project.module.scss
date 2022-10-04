@@ -89,8 +89,8 @@
     }
 
     &__tools{
-        background-color: #cdc9c9;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
         padding: 15px;
