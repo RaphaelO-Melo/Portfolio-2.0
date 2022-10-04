@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { getProject } from 'common/Library'; 
 import style from './Project.module.scss';
 import { FiExternalLink } from 'react-icons/fi';
+import TechTool from 'components/TechTool';
 
 export default function Project(){
 
@@ -27,7 +28,9 @@ export default function Project(){
                 <p className={style.card__content__description}>{description}</p>
             </div>
             <div className={style.card__tools}>
-                {tools}
+                {tools.map((tool, index) => (
+                    <TechTool key={index} toolId={tool} />
+                ))}
             </div>
         </section>
     );

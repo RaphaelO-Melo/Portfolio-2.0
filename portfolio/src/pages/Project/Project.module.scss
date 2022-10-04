@@ -69,22 +69,31 @@
 
         }
         
-        
     }
 
     &__content{
 
-        background-color: bisque;
         text-align: center;
+        margin: 50px auto;
 
         &__name{
-            background-color: rebeccapurple;
+            color: $purple;
+            margin: 0;
         }
 
         &__description{
-            background-color: aquamarine;
+            color: $black;
+            margin: 30px auto;
         }
 
+    }
+
+    &__tools{
+        background-color: #cdc9c9;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 15px;
     }
 
 }
