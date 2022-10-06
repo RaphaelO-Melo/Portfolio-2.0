@@ -17,7 +17,7 @@ export default function Project(){
                     <img  src={image} alt={name} />
                     <span>
                         <p>
-                            Abrir projeto    
+                            Abrir
                         </p>
                         <FiExternalLink style={styleIcon} />
                     </span>
