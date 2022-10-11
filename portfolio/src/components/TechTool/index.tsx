@@ -3,6 +3,7 @@ import {ReactComponent as LogoHtml} from 'assets/icons/html.svg';
 import {ReactComponent as LogoCss} from 'assets/icons/css.svg';
 import {ReactComponent as LogoJavascript} from 'assets/icons/javascript.svg';
 import {ReactComponent as LogoCsharp} from 'assets/icons/c#.svg';
+import {ReactComponent as LogoUnity} from 'assets/icons/unity.svg';
 
 import style from './TechTool.module.scss';
 
@@ -19,6 +20,7 @@ export default function TechTool({toolId} : Tool){
             {toolId === 3 ? <LogoCss width={'100%'} height={'100%'} /> : ''}
             {toolId === 4 ? <LogoJavascript width={'100%'} height={'100%'} /> : ''}
             {toolId === 5 ? <LogoCsharp width={'100%'} height={'100%'} /> : ''}
+            {toolId === 6 ? <LogoUnity width={'100%'} height={'100%'} /> : ''}
         </span>
     );
 }

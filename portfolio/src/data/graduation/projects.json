@@ -17,35 +17,41 @@
         "institution": 1,
         "tools": [1]
     },
-
     
     {
         "id": 3,
         "name": "Simulador de Memória",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
-        "link": "https://github.com/RaphaelO-Melo/P03-Minesweeper",
+        "description": "Projeto desenvolvido em Java com o objetivo de aprimorar as habilidades em lógica de programação. O programa simula a alocação de memória no Windows alocando pedaços da memória com endereço e tamanhos de blocos. As operações que podem ser realizadas pelo usuário são: alocar memória para execução de processo, finalizar processo e visualizar o status atual da memória.",
+        "image": "/assets/projects/memorySimulator.PNG",
+        "link": "https://github.com/RaphaelO-Melo/P05-MemorySimulator",
         "institution": 1,
-        "tools": []
+        "tools": [1]
     },
     {
         "id": 4,
         "name": "Into the Dwarfness",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
-        "link": "https://github.com/RaphaelO-Melo/P03-Minesweeper",
+        "description": "Jogo desenvolvido em Java com o objetivo de exercitar as hablidades em Programação Orientada a Objetos. No jogo o usuário controla uma anão através de 5 fases enquanto explora uma caverna. Ao longo do caminho o usuário enfrenta vários inimigos controlados por uma inteligência artificial que tem como base o algoritmo A* com quem pode batalhar para garantir sua sobrevivência.",
+        "image": "/assets/projects/intoTheDwarfness.PNG",
+        "link": "https://github.com/Waffliors/Into-The-Dwarfness",
         "institution": 1,
-        "tools": []
+        "tools": [1]
     },
     {
         "id": 5,
         "name": "Quests of Wisllow",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
-        "link": "https://github.com/RaphaelO-Melo/P03-Minesweeper",
+        "description": "Projeto de conclusão de curso desenvolvido em Unity utilizando C#. No jogo o usuário controla Andrew, um jovem gamer que foi sequestrado por um mago misterioso e agora para poder escapar, ele deve completar três tarefas. O projeto une todas as habilidades adquiridas ao longo da graduação em jogos digitas como por exemplo algoritmos, inteligência artificial, game design e gestão de projetos.",
+        "image": "/assets/projects/questsOfWisllow.PNG",
+        "link": "https://play.google.com/store/apps/details?id=com.Bugnatron.QuestsofWisllow",
         "institution": 1,
-        "tools": []
+        "tools": [5, 6]
     },
+
+
+
+
+
+
+
     {
         "id": 6,
         "name": "UNES",
