@@ -45,49 +45,50 @@
         "institution": 1,
         "tools": [5, 6]
     },
-
-
-
-
-
-
-
     {
         "id": 6,
         "name": "UNES",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Site desenvolvido para estudar os conceitos básicos de HTML5. O projeto simula a página de uma universidade de tecnologia fictícia e conta com três páginas. No projeto foi possível ter contato com a estruturação básica de uma página web, paginação, uso de links, uso de imagens e a estrutura básica de um formulário.",
+        "image": "/assets/projects/unes.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_UNES",
         "institution": 4,
-        "tools": []
+        "tools": [2]
     },
     {
         "id": 7,
-        "name": "Modelo Ana",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "name": "Modelo Anna",
+        "description": "Site desenvolvido para estudar os conceitos básicos de CSS3. O projeto simula um portfólio de uma modelo e conta com quatro páginas. No projeto foi possível ter contato com a manipulação de fontes, cores, e dimensões além de estilização através de elementos, ids e classes.",
+        "image": "/assets/projects/anna.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Modelo-Anna",
         "institution": 4,
-        "tools": []
+        "tools": [2, 3]
     },
     {
         "id": 8,
         "name": "TecBlog",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Site desenvolvido para estudar conceitos básicos de CSS3. O projeto simula um blog de tecnologia que aborta tópicos diversos como jogos, informática e eletrônicos. O projeto conta com cinco páginas e teve como objetivo reforçar conceitos básicos de CSS3, porém com um volume maior de elementos para serem estilizados.",
+        "image": "/assets/projects/tecblog.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_TecBlog",
         "institution": 4,
-        "tools": []
+        "tools": [2, 3]
     },
     {
         "id": 9,
         "name": "Notícias Cidade",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Site desenvolvido para estudar conceitos intermediários de CSS3. O projeto simula um portal de notícias de uma pequena cidade. Ele conta com sete páginas principais e diversas páginas para cada uma das notícias onde foi exercitada a estilização em cascata e a introdução ao conceito de layout fluido.",
+        "image": "/assets/projects/noticiasCidade.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Noticias-Cidade",
         "institution": 4,
-        "tools": []
+        "tools": [2, 3]
     },
+
+
+
+
+
+
+
+
     {
         "id": 10,
         "name": "Chalé hotel",
@@ -97,6 +98,8 @@
         "institution": 4,
         "tools": []
     },
+
+
     {
         "id": 11,
         "name": "Museu Nacional",
@@ -106,6 +109,8 @@
         "institution": 4,
         "tools": []
     },
+
+
     {
         "id": 12,
         "name": "Finans",
@@ -115,6 +120,8 @@
         "institution": 4,
         "tools": []
     },
+
+
     {
         "id": 13,
         "name": "Spotify",
@@ -124,6 +131,8 @@
         "institution": 4,
         "tools": []
     },
+
+
     {
         "id": 14,
         "name": "Calculadora",
@@ -133,6 +142,8 @@
         "institution": 4,
         "tools": []
     },
+
+
     {
         "id": 15,
         "name": "Game Mata Mosquito",
@@ -142,6 +153,8 @@
         "institution": 4,
         "tools": []
     },
+
+
     {
         "id": 16,
         "name": "Help Desk",
@@ -151,6 +164,8 @@
         "institution": 4,
         "tools": []
     },
+
+
     {
         "id": 17,
         "name": "Send Mail",
@@ -160,6 +175,8 @@
         "institution": 4,
         "tools": []
     },
+
+
     {
         "id": 18,
         "name": "Lista de Tarefas",
@@ -169,6 +186,14 @@
         "institution": 4,
         "tools": []
     },
+
+
+
+
+
+
+
+
     {
         "id": 19,
         "name": "Alura Studies",
