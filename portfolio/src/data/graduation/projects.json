@@ -81,56 +81,59 @@
         "institution": 4,
         "tools": [2, 3]
     },
-
-
-
-
-
-
-
-
     {
         "id": 10,
         "name": "Chalé hotel",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Site desenvolvido para estudar conceitos intermediários de CSS3. O projeto simula o portal de um hotel e tem como objetivo exercitar conceitos como o posicionamento de elementos e a fluidez de layout.",
+        "image": "/assets/projects/chaleHotel.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Chale-Hotel",
         "institution": 4,
-        "tools": []
+        "tools": [2, 3]
     },
-
-
     {
         "id": 11,
         "name": "Museu Nacional",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Site desenvolvido para estudar tags modernas do HTML5. O projeto simula a home page do portal do museu nacional e tem como objetivo exercitar o uso de tags modernas do HTML como section, article, aside e nav.",
+        "image": "/assets/projects/museuNacional.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Museu-Nacional",
         "institution": 4,
-        "tools": []
+        "tools": [2, 3]
     },
-
-
     {
         "id": 12,
         "name": "Finans",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Site desenvolvido para estudar conceitos básicos do Bootstrap 4. O projeto simula uma ferramenta de finanças pessoais e tem como objetivo explorar os conceitos básicos do bootstrap como cores, grid e componentes. Também foi introduzido o conceito de breakpoints e responsividade de maneira mais precisa.",
+        "image": "/assets/projects/finans.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Finans",
         "institution": 4,
-        "tools": []
+        "tools": [2, 3, 7]
     },
-
-
     {
         "id": 13,
         "name": "Spotify",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Projeto desenvolvido para estudar conceitos intermediários do Bootstrap4. O projeto simula a homepage do Spotify e tem como objetivo explorar o uso de ferramentas bootstrap como posicionamento, menus e carousel ainda aprimorando os conhecimentos sobre responsividade.",
+        "image": "/assets/projects/spotify.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Spotify",
         "institution": 4,
-        "tools": []
+        "tools": [2, 3, 7]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     {
