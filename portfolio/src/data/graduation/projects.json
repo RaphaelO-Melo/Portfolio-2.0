@@ -117,88 +117,54 @@
         "institution": 4,
         "tools": [2, 3, 7]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "id": 14,
         "name": "Calculadora",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Projeto desenvolvido para estudar conceitos básicos de Javascript. A aplicação simula uma calculadora que realiza as 4 operações aritméticas fundamentais (adição, subtração, multiplicação e divisão). Com o projeto foi possível ter um contato inicial com javascript explorando seus fundamentos, como variáveis, funções e manipulação do DOM.",
+        "image": "/assets/projects/calculadora.PNG",
         "link": "https://github.com/RaphaelO-Melo/APP_Calculadora",
         "institution": 4,
-        "tools": []
+        "tools": [2, 3, 4, 7]
     },
-
-
     {
         "id": 15,
         "name": "Game Mata Mosquito",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Projeto desenvolvido para estudar conceitos básicos de Javascript. No jogo, o usuário controla uma raquete e 3 níveis de dificuldade disponíveis e tem como objetivo acertar todos os motivos que aparecem na tela ao clicar em cima deles. Caso o jogador deixe 3 mosquitos escaparem, ele perde o jogo. O projeto teve como objetivo exercitar conceitos básicos de Javascript, como eventos, redimensionamento de tela e cronômetros.",
+        "image": "/assets/projects/mataMosquito.PNG",
         "link": "https://github.com/RaphaelO-Melo/APP_Game-mata-mosquito",
         "institution": 4,
-        "tools": []
+        "tools": [2, 3, 4, 7]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     {
         "id": 16,
-        "name": "Help Desk",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
-        "link": "https://github.com/RaphaelO-Melo/APP_Help-Desk",
-        "institution": 4,
-        "tools": []
-    },
-
-
-    {
-        "id": 17,
-        "name": "Send Mail",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
-        "link": "https://github.com/RaphaelO-Melo/APP_Send-Mail",
-        "institution": 4,
-        "tools": []
-    },
-
-
-    {
-        "id": 18,
-        "name": "Lista de Tarefas",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
-        "link": "https://github.com/RaphaelO-Melo/APP_Lista-de-Tarefas",
-        "institution": 4,
-        "tools": []
-    },
-
-
-
-
-
-
-
-
-    {
-        "id": 19,
         "name": "Alura Studies",
         "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
         "image": "placeholder.png",
@@ -207,7 +173,7 @@
         "tools": []
     },
     {
-        "id": 20,
+        "id": 17,
         "name": "Aluroni",
         "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
         "image": "placeholder.png",
@@ -216,7 +182,7 @@
         "tools": []
     },
     {
-        "id": 21,
+        "id": 18,
         "name": "Doguito Petshop",
         "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
         "image": "placeholder.png",
@@ -225,7 +191,7 @@
         "tools": []
     },
     {
-        "id": 22,
+        "id": 19,
         "name": "Event Tracker",
         "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
         "image": "placeholder.png",
@@ -234,7 +200,7 @@
         "tools": []
     },
     {
-        "id": 23,
+        "id": 20,
         "name": "React Context",
         "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
         "image": "placeholder.png",

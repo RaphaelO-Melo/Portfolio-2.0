@@ -41,7 +41,7 @@
         "final_date": "2020-09-30",
         "description": "Curso focado no desenvolvimento web utilizando HTML, CSS e PHP. Nele solidifiquei meus conhecimentos básicos para web através de diversos projetos onde foi possível explorar os conceitos iniciais de cada uma das tecnologias apresentadas.",
         "link": "https://www.udemy.com/course/web-completo/",
-        "projects": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+        "projects": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     },
     {
         "id": 5,
@@ -74,7 +74,7 @@
         "final_date": "2022-05-18",
         "description": "Curso introdutório de React com Javascript. Foi o meu primeiro contato com ambas e pude adquirir conhecimentos básicos sobre Components, Props e States. Também foi onde tive meu primeiro contato com SASS.",
         "link": "https://cursos.alura.com.br/course/react-modernizando-escrever-typescript",
-        "projects": [19]
+        "projects": [16]
     },
     {
         "id": 8,
@@ -85,7 +85,7 @@
         "final_date": "2022-05-31",
         "description": "Curso desenvolvido para ensinar a lidar com arquivos estáticos no React. Além de aprender a manipular os arquivos armazenados de forma estática no projeto, também aprendi a realizar importações externas, como criar filtros e também ordenadores.",
         "link": "https://cursos.alura.com.br/course/react-arquivos-estaticos",
-        "projects": [20]
+        "projects": [17]
     },
     {
         "id": 9,
@@ -96,7 +96,7 @@
         "final_date": "2022-06-16",
         "description": "Curso montado para instruir sobre o uso da Biblioteca Router do React. Nele tive o primeiro contanto com o desenvolvimento de uma SPA, aprendi a utilizar o ESLint para padronizar os projetos, estruturar a base das rotas utilizando a biblioteca e utilizar os Hooks de forma mais abrangente.",
         "link": "https://cursos.alura.com.br/course/react-biblioteca-react-router",
-        "projects": [20]
+        "projects": [17]
     },
     {
         "id": 10,
@@ -107,7 +107,7 @@
         "final_date": "2022-06-27",
         "description": "Curso realizado para me habituar melhor com a estrutura de uma SPA. Ainda utilizando a biblioteca React Router, aprimorei meus conhecimentos sobre a criação e estruturação de rotas, páginas 404 e menus de navegação.",
         "link": "https://cursos.alura.com.br/course/react-router-navegacao-spa",
-        "projects": [21]
+        "projects": [18]
     },
     {
         "id": 11,
@@ -118,7 +118,7 @@
         "final_date": "2022-04-30",
         "description": "Curso introdutório da biblioteca Recoil. Nele tive o primeiro contato com uma ferramenta para gerenciar os estados do React e evitar o Prop Drilling. Utilizei meus primeiros Hooks customizados além de praticar o Clean Code e criar seletores assíncronos.",
         "link": "https://cursos.alura.com.br/course/react-gerenciando-estado-recoil",
-        "projects": [22]
+        "projects": [19]
         
     },
     {
@@ -130,6 +130,6 @@
         "final_date": "2022-08-15",
         "description": "Curso focado em ensinar a gerenciar os estados da apliação de maneira nativa no React. Através do ContextAPI aprendi como é possível criar contextos diferentes dentro da aplicação de maneira que o código do projeto permaneça limpo e os componentes possam acessar de maneira prática os estados que utilizam.",
         "link": "https://cursos.alura.com.br/course/react-context-estados-globais-contextapi",
-        "projects": [23]
+        "projects": [20]
     }
 ]
