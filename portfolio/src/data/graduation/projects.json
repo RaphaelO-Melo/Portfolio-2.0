@@ -135,52 +135,52 @@
         "institution": 4,
         "tools": [2, 3, 4, 7]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "id": 16,
         "name": "Alura Studies",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Projeto desenvolvido para estudar conceitos básicos de React com Typescript. A aplicação simula um controlador de estudos onde o usuário pode cadastrar tarefas e definir quanto tempo ela levará. Após o cadastro o usuário pode iniciar a atividade e acompanhar o tempo restante através do contador. O projeto tem como objetivo exercitar conceitos básicos do React como components, props, states e controles de inputs além de conhecer também o Typescript e o SASS.",
+        "image": "/assets/projects/aluraStudies.PNG",
         "link": "https://github.com/RaphaelO-Melo/Alura-Studies",
         "institution": 5,
-        "tools": []
+        "tools": [8, 9, 10]
     },
     {
         "id": 17,
         "name": "Aluroni",
-        "description": "Eget egestas purus viverra accumsan. Amet nisl suscipit adipiscing bibendum est ultricies integer. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Sit amet justo donec enim diam vulputate ut pharetra sit. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Integer enim neque volutpat ac. Vestibulum sed arcu non odio. Semper risus in hendrerit gravida rutrum quisque. Sed velit dignissim sodales ut eu sem integer. Sed faucibus turpis in eu mi bibendum neque egestas. Elit pellentesque habitant morbi tristique senectus et netus. Arcu odio ut sem nulla pharetra diam sit. Imperdiet sed euismod nisi porta lorem mollis aliquam. Fermentum leo vel orci porta non pulvinar neque. Mi tempus imperdiet nulla malesuada pellentesque. Odio facilisis mauris sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Amet massa vitae tortor condimentum.",
-        "image": "placeholder.png",
+        "description": "Projeto desenvolvido para estudar conceitos básicos de React com Typescript e conhecer a Biblioteca React Router. A aplicação simula o site de um restaurante italiano onde o usuário pode pesquisar pelos pratos, selecionar por filtros e ordenar os pratos pelas suas características. O projeto tem como objetivo estudar conceitos básicos de React como lidar com arquivos estáticos, menus de navegação e filtros através da manipulação de states. Durante o desenvolvimento do site também foi possível aprofundar os conhecimentos em SASS e conhecer a biblioteca React Router e a ferramente ESLint.",
+        "image": "/assets/projects/aluroni.PNG",
         "link": "https://github.com/RaphaelO-Melo/Aluroni",
         "institution": 5,
-        "tools": []
+        "tools": [8, 9, 10]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
         "id": 18,
         "name": "Doguito Petshop",
