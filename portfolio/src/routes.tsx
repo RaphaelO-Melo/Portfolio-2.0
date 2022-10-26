@@ -7,20 +7,23 @@ import Footer from 'components/Footer';
 import NotFound from 'pages/NotFound';
 import Graduation from 'pages/Graduation';
 import Project from 'pages/Project';
+import { GraduationProvider } from 'common/context/Graduation';
 
 export default function AppRouter(){
     return (
         <main className='container'>
             <Router>
                 <TopNav />
-                <Routes>
-                    <Route path='/'>
-                        <Route index element={<About />}/>
-                        <Route path='graduation' element={<Graduation />}/>
-                        <Route path='project/:id' element={<Project />}/>
-                    </Route>
-                    <Route path='*' element={<NotFound />}/>
-                </Routes>
+                <GraduationProvider>
+                    <Routes>
+                        <Route path='/'>
+                            <Route index element={<About />}/>
+                            <Route path='graduation' element={<Graduation />}/>
+                            <Route path='project/:id' element={<Project />}/>
+                        </Route>
+                        <Route path='*' element={<NotFound />}/>
+                    </Routes>
+                </GraduationProvider>
                 <ScrollToTop />
                 <BottomNav />
                 <Footer />

@@ -17,7 +17,6 @@
         "institution": 1,
         "tools": [1]
     },
-    
     {
         "id": 3,
         "name": "Simulador de Memória",
@@ -153,34 +152,6 @@
         "institution": 5,
         "tools": [2, 3, 8, 9, 10]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "id": 18,
         "name": "Doguito Petshop",
@@ -208,5 +179,4 @@
         "institution": 5,
         "tools": [2, 3, 8]
     }
-
 ]

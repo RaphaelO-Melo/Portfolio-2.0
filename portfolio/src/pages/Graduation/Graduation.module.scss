@@ -1,6 +1,30 @@
 @import "styles/variables";
 @import "styles/breakpoints";
 
+
+.filters{
+    
+    width: fit-content;
+    margin: 100px auto;
+
+    &__types{
+
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-evenly;
+
+        &__type{
+            
+        }
+
+    }
+
+    &__search{
+        
+    }
+
+}
+    
 .courses{
     display: flex;
     flex-direction: row;
