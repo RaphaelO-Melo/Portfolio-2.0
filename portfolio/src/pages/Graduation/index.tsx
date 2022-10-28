@@ -2,22 +2,34 @@ import courses from 'data/graduation/courses.json';
 import UniversityCard from './UniversityCard';
 import CourseCard from './CourseCard';
 import style from './Graduation.module.scss';
-import { useContext } from 'react';
-import { GraduationContext } from 'common/context/Graduation';
+import { useGraduationContext } from 'common/context/Graduation';
+import classNames from 'classnames';
 
 export default function Graduation() {
     
-    const context = useContext(GraduationContext);
+    const context = useGraduationContext();
     
     return (
         <section>
 
             <div className={style.filters}>
                 <div className={style.filters__types}>
-                    <button className={style.filters__types__type} onClick={() => context?.setType(1)}>Teste 1</button>
-                    <button className={style.filters__types__type} onClick={() => context?.setType(2)}>Teste 2</button>
+                    <button 
+                        className={classNames({
+                            [style.filters__types__type] : true,
+                            [style['filters__types__type--selected']] : context.getType() === 1
+                        })}
+                        onClick={() => context.changeType(1)}
+                    >Graduações</button>
+                    <button 
+                        className={classNames({
+                            [style.filters__types__type] : true,
+                            [style['filters__types__type--selected']] : context.getType() === 2
+                        })}
+                        onClick={() => context.changeType(2)}
+                    >Cursos</button>
                 </div>
-                <input className={style.filters__search} type="text" onChange={(event) => context?.setSearch(event.target.value)} />
+                <input className={style.filters__search} type="text" placeholder='Pesquisar...' onChange={(event) => context.changeSearch(event.target.value)} />
             </div>
 
             {
