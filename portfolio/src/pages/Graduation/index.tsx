@@ -8,6 +8,8 @@ import classNames from 'classnames';
 export default function Graduation() {
     
     const context = useGraduationContext();
+    let currentCourses = courses.filter(current => current.type === context.getType() || context.getType() === 0);
+    currentCourses = currentCourses.filter(current => current.name.includes(context.getSearch()));
     
     return (
         <section>
@@ -33,7 +35,7 @@ export default function Graduation() {
             </div>
 
             {
-                courses.map(currentCourse => (
+                currentCourses.map(currentCourse => (
                     currentCourse.type === 1 ? 
                         <UniversityCard 
                             key={currentCourse.id}
@@ -53,7 +55,7 @@ export default function Graduation() {
 
             <div className={style.courses}>
                 {
-                    courses.map(currentCourse => (
+                    currentCourses.map(currentCourse => (
                         currentCourse.type === 2 ? 
                             <CourseCard 
                                 key={currentCourse.id}

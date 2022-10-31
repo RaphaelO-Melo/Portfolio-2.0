@@ -1,5 +1,6 @@
-import React, { createContext, useState, useContext } from 'react';
+import { createContext, useState, useContext } from 'react';
 import {GraduationContextInterface} from 'types/GraduationContextInterface';
+import Courses from 'data/graduation/courses.json';
 
 export const GraduationContext = createContext<GraduationContextInterface | null>(null);
 GraduationContext.displayName = 'Graduation';
