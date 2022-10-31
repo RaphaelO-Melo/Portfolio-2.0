@@ -51,7 +51,7 @@ export const useGraduationContext = () => {
 
     function changeSearch(newSearch: string){
     
-        context?.setSearch(newSearch);
+        context?.setSearch(newSearch.toLocaleLowerCase());
     
     }
 

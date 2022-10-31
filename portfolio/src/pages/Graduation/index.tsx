@@ -4,12 +4,13 @@ import CourseCard from './CourseCard';
 import style from './Graduation.module.scss';
 import { useGraduationContext } from 'common/context/Graduation';
 import classNames from 'classnames';
+import { IoMdSearch } from 'react-icons/io';
 
 export default function Graduation() {
     
     const context = useGraduationContext();
     let currentCourses = courses.filter(current => current.type === context.getType() || context.getType() === 0);
-    currentCourses = currentCourses.filter(current => current.name.includes(context.getSearch()));
+    currentCourses = currentCourses.filter(current => current.name.toLocaleLowerCase().includes(context.getSearch()));
     
     return (
         <section>
@@ -34,24 +35,26 @@ export default function Graduation() {
                 <input className={style.filters__search} type="text" placeholder='Pesquisar...' onChange={(event) => context.changeSearch(event.target.value)} />
             </div>
 
-            {
-                currentCourses.map(currentCourse => (
-                    currentCourse.type === 1 ? 
-                        <UniversityCard 
-                            key={currentCourse.id}
-                            id={currentCourse.id}
-                            name={currentCourse.name} 
-                            type={currentCourse.type}
-                            institution={currentCourse.institution}
-                            start_date={currentCourse.start_date}
-                            final_date={currentCourse.final_date}
-                            description={currentCourse.description}
-                            link={currentCourse.link}
-                            projects={currentCourse.projects}
-                        />
-                        : ''
-                ))
-            }
+            <div className={style.graduations}>
+                {
+                    currentCourses.map(currentCourse => (
+                        currentCourse.type === 1 ? 
+                            <UniversityCard 
+                                key={currentCourse.id}
+                                id={currentCourse.id}
+                                name={currentCourse.name} 
+                                type={currentCourse.type}
+                                institution={currentCourse.institution}
+                                start_date={currentCourse.start_date}
+                                final_date={currentCourse.final_date}
+                                description={currentCourse.description}
+                                link={currentCourse.link}
+                                projects={currentCourse.projects}
+                            />
+                            : ''
+                    ))
+                }
+            </div>
 
             <div className={style.courses}>
                 {
@@ -73,6 +76,15 @@ export default function Graduation() {
                     ))
                 }
             </div>
+
+            {
+                currentCourses.length === 0 ? 
+                    <div className={style.notFound}>
+                        Nenhum resultado encontrado
+                    </div>
+                    : ''
+            }
+
         </section>
     );
 }
