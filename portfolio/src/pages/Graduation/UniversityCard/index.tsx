@@ -3,6 +3,8 @@ import style from './UniversityCard.module.scss';
 import { getInstitutionName, getProjectName, convertToBrazilDate } from 'common/Library';
 import { Link } from 'react-router-dom';
 import { FaGraduationCap } from 'react-icons/fa';
+import { ImBooks } from 'react-icons/im';
+import classNames from 'classnames';
 
 export default function UniversityCard({
     id,
@@ -21,6 +23,10 @@ export default function UniversityCard({
     return (
         <div className={style.card}>
             <div className={style.card__header}>
+                <ImBooks className={classNames({
+                    [style.card__header__library] : true,
+                    [style['card__header__library--disabled']] : projects.length <= 0
+                })}  />
                 <h2 className={style.card__header__name}>
                     {name}
                     <FaGraduationCap className={style.card__header__name__type}  /> 

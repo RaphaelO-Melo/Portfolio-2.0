@@ -4,7 +4,6 @@ import CourseCard from './CourseCard';
 import style from './Graduation.module.scss';
 import { useGraduationContext } from 'common/context/Graduation';
 import classNames from 'classnames';
-import { IoMdSearch } from 'react-icons/io';
 
 export default function Graduation() {
     

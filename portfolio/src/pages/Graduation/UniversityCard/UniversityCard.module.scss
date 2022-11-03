@@ -4,11 +4,15 @@
 .card{
 
     width: 60%;
-    max-width: 1200px;
+    height: fit-content;
+    max-width: 720px;
     margin: 80px auto;
-    padding: 5px;
+    padding: 35px;
     border-radius: $radius;
     text-align: center;
+    background-color: $base-white;
+    border-top: 3px solid $purple;
+    
 
     @media (max-width: $desktop_md) {
         width: 65%;
@@ -34,10 +38,26 @@
         margin-bottom: 25px;
         color: $black;
 
+        &__library{
+            margin: 0 0 0 auto;
+            color: $orange;
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        &__library:hover{
+            opacity: 1;
+        }
+
+        &__library--disabled{
+            color: $soft-gray;
+            cursor: initial;
+        }
+
         &__name{
 
             margin: 0;
-            font-size: 1.4em;
+            font-size: 1.1em;
             font-weight: bolder;
             display: flex;
             align-content: center;
@@ -60,13 +80,13 @@
 
         &__institution{
             margin: 8px auto;
-            font-size: 1.2em;
+            font-size: 0.8em;
             font-weight: normal;
         }
 
         &__date{
             margin: 2px auto;
-            font-size: 0.8em;
+            font-size: 0.7em;
             font-weight: lighter;
         }
 
@@ -76,7 +96,7 @@
 
         &__description{
 
-            font-size: 0.8em;
+            font-size: 0.6em;
             margin-bottom: 10px;
             text-align: center;
         
@@ -85,6 +105,7 @@
         &__projects{
             
             display: flex;
+            display: none;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
