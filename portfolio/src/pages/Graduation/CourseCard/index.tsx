@@ -3,6 +3,7 @@ import style from './CourseCard.module.scss';
 import { getInstitutionName, getProjectName, convertToBrazilDate } from 'common/Library';
 import { Link } from 'react-router-dom';
 import { ImBooks } from 'react-icons/im';
+import { FaUniversity } from 'react-icons/fa';
 import classNames from 'classnames';
 
 export default function CourseCard({
@@ -23,10 +24,13 @@ export default function CourseCard({
         <div className={style.card}>
 
             <div className={style.card__header}>
-                <ImBooks className={classNames({
-                    [style.card__header__library] : true,
-                    [style['card__header__library--disabled']] : projects.length <= 0
-                })}  />
+                <div className={style.card__header__buttons}>
+                    <FaUniversity className={style.card__header__buttons__institution} />
+                    <ImBooks className={classNames({
+                        [style.card__header__buttons__library] : true,
+                        [style['card__header__buttons__library--disabled']] : projects.length <= 0
+                    })}  />
+                </div>
                 <h2 className={style.card__header__name}>
                     {name}
                 </h2>

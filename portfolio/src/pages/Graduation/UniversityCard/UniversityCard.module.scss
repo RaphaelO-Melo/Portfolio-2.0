@@ -3,16 +3,20 @@
 
 .card{
 
-    width: 60%;
-    height: fit-content;
+    width: 40%;
+    min-height: 320px;
     max-width: 720px;
-    margin: 80px auto;
+    margin: 40px auto;
     padding: 35px;
     border-radius: $radius;
     text-align: center;
     background-color: $base-white;
     border-top: 3px solid $purple;
-    
+    box-shadow: $soft-shadow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 
     @media (max-width: $desktop_md) {
         width: 65%;
@@ -27,67 +31,62 @@
         margin: 40px auto;
     }
     @media (max-width: $mobile) {
-        width: 95%;
-        margin: 85px auto;
+        width: 60%;
+        margin: 35px auto;
     }
 
     &__header{
 
         display: flex;
         flex-direction: column;
-        margin-bottom: 25px;
+        margin-bottom: 0;
         color: $black;
 
-        &__library{
-            margin: 0 0 0 auto;
-            color: $orange;
-            cursor: pointer;
-            opacity: 0.8;
-        }
+        &__buttons{
 
-        &__library:hover{
-            opacity: 1;
-        }
+            text-align: right;
 
-        &__library--disabled{
-            color: $soft-gray;
-            cursor: initial;
+            &__institution{
+                color: $orange;
+                cursor: pointer;
+                opacity: 0.8;
+                margin-right: 10px;
+            }
+
+            &__institution:hover{
+                opacity: 1;
+            }
+
+            &__library{
+                margin: 0 0 0 auto;
+                color: $orange;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+    
+            &__library:hover{
+                opacity: 1;
+            }
+    
+            &__library--disabled{
+                color: $soft-gray;
+                cursor: initial;
+            }
+
+
         }
 
         &__name{
 
-            margin: 0;
+            margin: 5px auto;
             font-size: 1.1em;
             font-weight: bolder;
             display: flex;
             align-content: center;
             justify-content: center;
             align-items: center;
+            min-height: 3em;
 
-            &__type{
-                
-                margin-left: 10px;
-                color: $purple;
-                display: block;
-
-                @media (max-width: $desktop_md) {
-                    display: none;
-                }
-
-            }
-
-        }
-
-        &__institution{
-            margin: 8px auto;
-            font-size: 0.8em;
-            font-weight: normal;
-        }
-
-        &__date{
-            margin: 2px auto;
-            font-size: 0.7em;
-            font-weight: lighter;
         }
 
     }
@@ -97,7 +96,7 @@
         &__description{
 
             font-size: 0.6em;
-            margin-bottom: 10px;
+            margin: 2px auto;
             text-align: center;
         
         }

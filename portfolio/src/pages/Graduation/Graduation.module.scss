@@ -71,6 +71,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 50px;
+    width: 90%;
+    margin: auto;
+
+    @media (max-width: $mobile) {
+        width: 100%;
+    }
+
 }
 
 .notFound{
