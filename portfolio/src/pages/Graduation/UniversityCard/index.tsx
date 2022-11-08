@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { ImBooks } from 'react-icons/im';
 import { FaUniversity } from 'react-icons/fa';
 import classNames from 'classnames';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
 
 export default function UniversityCard({
     id,
@@ -19,16 +21,33 @@ export default function UniversityCard({
 }: Course){
 
     const institutionName = getInstitutionName(institution);
+    const swal = withReactContent(Swal);
+    
+    function showMessage(title: string, body: string, type: string){
+        swal.fire({
+            html: <div>
+                <h1>{title}</h1>
+                <p>{body}</p>
+                <span>{type}</span>
+            </div>
+        });
+    }
 
     return (
         <div className={style.card}>
             <div className={style.card__header}>
                 <div className={style.card__header__buttons}>
-                    <FaUniversity className={style.card__header__buttons__institution} />
-                    <ImBooks className={classNames({
-                        [style.card__header__buttons__library] : true,
-                        [style['card__header__buttons__library--disabled']] : projects.length <= 0
-                    })}  />
+                    <FaUniversity
+                        onClick={() => showMessage('Título modal da instituição', 'Corpo da mensagem da instituição', 'tipo da instituição')}
+                        className={style.card__header__buttons__institution} 
+                    />
+                    <ImBooks
+                        onClick={() => projects.length > 0 ? showMessage('Título modal dos projetos', 'Corpo da mensagem dos projetos', 'tipo dos projetos') : ''}
+                        className={classNames({
+                            [style.card__header__buttons__library] : true,
+                            [style['card__header__buttons__library--disabled']] : projects.length <= 0
+                        })}
+                    />
                 </div>
                 <h2 className={style.card__header__name}>
                     {name}

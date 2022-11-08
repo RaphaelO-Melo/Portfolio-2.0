@@ -4,19 +4,8 @@ import CourseCard from './CourseCard';
 import style from './Graduation.module.scss';
 import { useGraduationContext } from 'common/context/Graduation';
 import classNames from 'classnames';
-import Swal from 'sweetalert2';
-import withReactContent from 'sweetalert2-react-content';
 
 export default function Graduation() {
-
-    const MySwal = withReactContent(Swal);
-
-    MySwal.fire({
-        title: <p>Hello World</p>,
-    }).then(() => {
-        return MySwal.fire(<p>Shorthand works too</p>);
-    });
-
 
     const context = useGraduationContext();
     let currentCourses = courses.filter(current => current.type === context.getType() || context.getType() === 0);
