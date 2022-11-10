@@ -143,3 +143,39 @@
     }
 
 }
+
+.messageBody{
+
+    padding: 15px;
+    
+    &__header{
+        margin-bottom: 25px;
+        &__link{
+            opacity: 0.7;
+        }
+        &__link:hover{
+            opacity: 1;
+        }
+    }
+
+    &__datas{
+        display: flex;
+        flex-direction: column;
+        &__data{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            &__label{
+                font-weight: bold;
+            }
+            &__value{
+                font-weight: lighter;
+            }
+        }
+    }
+}
+
+.message{
+    width: fit-content;
+    min-width: 500px;
+}

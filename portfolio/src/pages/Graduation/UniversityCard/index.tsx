@@ -1,6 +1,6 @@
 import { Course } from 'types/Course';
 import style from './UniversityCard.module.scss';
-import { getInstitutionName, getProjectName, convertToBrazilDate } from 'common/Library';
+import { getInstitutionName, getInstitutionLink, getProjectName, convertToBrazilDate } from 'common/Library';
 import { Link } from 'react-router-dom';
 import { ImBooks } from 'react-icons/im';
 import { FaUniversity } from 'react-icons/fa';
@@ -21,15 +21,31 @@ export default function UniversityCard({
 }: Course){
 
     const institutionName = getInstitutionName(institution);
+    const institutionLink = getInstitutionLink(institution);
     const swal = withReactContent(Swal);
     
-    function showMessage(title: string, body: string, type: string){
+    function showInstitutionModal(institution: string, startDate: string, finalDate: string, link : string){
         swal.fire({
-            html: <div>
-                <h1>{title}</h1>
-                <p>{body}</p>
-                <span>{type}</span>
-            </div>
+            html: 
+            <div className={style.messageBody}>
+                <h1 className={style.messageBody__header}>
+                    <a className={style.messageBody__header__link} href={link} target='__blank'>
+                        {institution}
+                    </a>
+                </h1>
+                <div className={style.messageBody__datas}>
+                    <div className={style.messageBody__datas__data}>
+                        <span className={style.messageBody__datas__data__label}>Data inicial:</span>
+                        <span className={style.messageBody__datas__data__value}>{convertToBrazilDate(startDate)}</span>
+                    </div>
+                    <div className={style.messageBody__datas__data}>
+                        <span className={style.messageBody__datas__data__label}>Data final:</span>
+                        <span className={style.messageBody__datas__data__value}>{convertToBrazilDate(finalDate)}</span>
+                    </div>
+                </div>
+            </div>,
+            confirmButtonText: 'Fechar',
+            customClass: 'message'
         });
     }
 
@@ -38,11 +54,10 @@ export default function UniversityCard({
             <div className={style.card__header}>
                 <div className={style.card__header__buttons}>
                     <FaUniversity
-                        onClick={() => showMessage('Título modal da instituição', 'Corpo da mensagem da instituição', 'tipo da instituição')}
+                        onClick={() => showInstitutionModal(institutionName, start_date, final_date, institutionLink)}
                         className={style.card__header__buttons__institution} 
                     />
                     <ImBooks
-                        onClick={() => projects.length > 0 ? showMessage('Título modal dos projetos', 'Corpo da mensagem dos projetos', 'tipo dos projetos') : ''}
                         className={classNames({
                             [style.card__header__buttons__library] : true,
                             [style['card__header__buttons__library--disabled']] : projects.length <= 0
