@@ -58,6 +58,26 @@ export default function CourseCard({
         });
     }
 
+    function showInstitutionProjects(){
+        swal.fire({
+            html: 
+            <div className={style.messageBody}>
+                <h3 className={style.messageBody__projectsTitle}>Projetos desenvolvidos:</h3>
+                <div className={style.messageBody__projects}>
+                    {
+                        projects.map((project, index) =>
+                            <a className={style.messageBody__projects__project} key={index} href={'/project/'+project}>
+                                {getProjectName(project)}
+                            </a>
+                        )
+                    }
+                </div>
+            </div>,
+            confirmButtonText: 'Fechar',
+            customClass: 'message'
+        });
+    }
+
     return (
         <div className={style.card}>
 
@@ -67,6 +87,7 @@ export default function CourseCard({
                         onClick={() => showInstitutionModal(institutionName, start_date, final_date, institutionLink, instiuionTools)}
                         className={style.card__header__buttons__institution} />
                     <ImBooks 
+                        onClick={() => showInstitutionProjects()}
                         className={classNames({
                             [style.card__header__buttons__library] : true,
                             [style['card__header__buttons__library--disabled']] : projects.length <= 0

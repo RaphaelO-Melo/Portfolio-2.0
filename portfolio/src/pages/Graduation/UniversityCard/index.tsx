@@ -25,7 +25,7 @@ export default function UniversityCard({
     const institutionName = getInstitutionName(institution);
     const institutionLink = getInstitutionLink(institution);
     const instiuionTools = getToolsFromInstituton(institution);
-    
+
     function showInstitutionModal(institution: string, startDate: string, finalDate: string, link : string, tools : number[]){
         swal.fire({
             html: 
@@ -58,6 +58,26 @@ export default function UniversityCard({
         });
     }
 
+    function showInstitutionProjects(){
+        swal.fire({
+            html: 
+            <div className={style.messageBody}>
+                <h3 className={style.messageBody__projectsTitle}>Projetos desenvolvidos:</h3>
+                <div className={style.messageBody__projects}>
+                    {
+                        projects.map((project, index) =>
+                            <a className={style.messageBody__projects__project} key={index} href={'/project/'+project}>
+                                {getProjectName(project)}
+                            </a>
+                        )
+                    }
+                </div>
+            </div>,
+            confirmButtonText: 'Fechar',
+            customClass: 'message'
+        });
+    }
+
     return (
         <div className={style.card}>
             <div className={style.card__header}>
@@ -67,6 +87,7 @@ export default function UniversityCard({
                         className={style.card__header__buttons__institution} 
                     />
                     <ImBooks
+                        onClick={() => showInstitutionProjects()}
                         className={classNames({
                             [style.card__header__buttons__library] : true,
                             [style['card__header__buttons__library--disabled']] : projects.length <= 0
@@ -81,19 +102,6 @@ export default function UniversityCard({
                 <p className={style.card__body__description}>
                     {description}
                 </p>
-                <div className={style.card__body__projects}>
-                    {
-                        projects.map((project, index) => 
-                            <Link
-                                key={index}
-                                className={style.card__body__projects__project} 
-                                to={'/project/'+project}
-                            >
-                                {getProjectName(project)}
-                            </Link>
-                        )
-                    }
-                </div>
             </div>
         </div>
     );
