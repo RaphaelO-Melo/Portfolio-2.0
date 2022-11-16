@@ -84,3 +84,18 @@ export const getProject = (id: number): Project => {
     }
 
 };
+
+export const getToolsFromInstituton = (id: number): number[] => {
+
+    const tools: number[] = [];
+    const institutionProjects = projects.filter(current => current.institution === id);
+    institutionProjects.forEach(project => {
+        project.tools.forEach(tool => {
+            if(!tools.includes(tool))
+                tools.push(tool);
+        });
+    });
+
+    return tools;
+
+};

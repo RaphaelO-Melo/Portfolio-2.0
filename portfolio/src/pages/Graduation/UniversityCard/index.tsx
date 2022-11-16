@@ -1,12 +1,13 @@
 import { Course } from 'types/Course';
 import style from './UniversityCard.module.scss';
-import { getInstitutionName, getInstitutionLink, getProjectName, convertToBrazilDate } from 'common/Library';
+import { getInstitutionName, getInstitutionLink, getProjectName, convertToBrazilDate, getToolsFromInstituton } from 'common/Library';
 import { Link } from 'react-router-dom';
 import { ImBooks } from 'react-icons/im';
 import { FaUniversity } from 'react-icons/fa';
 import classNames from 'classnames';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
+import TechToolMin from 'components/TechToolMin';
 
 export default function UniversityCard({
     id,
@@ -20,11 +21,12 @@ export default function UniversityCard({
     projects
 }: Course){
 
+    const swal = withReactContent(Swal);
     const institutionName = getInstitutionName(institution);
     const institutionLink = getInstitutionLink(institution);
-    const swal = withReactContent(Swal);
+    const instiuionTools = getToolsFromInstituton(institution);
     
-    function showInstitutionModal(institution: string, startDate: string, finalDate: string, link : string){
+    function showInstitutionModal(institution: string, startDate: string, finalDate: string, link : string, tools : number[]){
         swal.fire({
             html: 
             <div className={style.messageBody}>
@@ -43,6 +45,13 @@ export default function UniversityCard({
                         <span className={style.messageBody__datas__data__value}>{convertToBrazilDate(finalDate)}</span>
                     </div>
                 </div>
+
+                {tools.length > 0 ? <h3>Ferramentas utilizadas:</h3> : ''}
+                <div className={style.messageBody__tools}>
+                    {tools.map(tool => (
+                        <TechToolMin key={tool} toolId={tool} />
+                    ))}
+                </div>
             </div>,
             confirmButtonText: 'Fechar',
             customClass: 'message'
@@ -54,7 +63,7 @@ export default function UniversityCard({
             <div className={style.card__header}>
                 <div className={style.card__header__buttons}>
                     <FaUniversity
-                        onClick={() => showInstitutionModal(institutionName, start_date, final_date, institutionLink)}
+                        onClick={() => showInstitutionModal(institutionName, start_date, final_date, institutionLink, instiuionTools)}
                         className={style.card__header__buttons__institution} 
                     />
                     <ImBooks

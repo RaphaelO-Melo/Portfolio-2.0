@@ -1,0 +1,13 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.icon{
+    
+    background-color: $soft-gray;
+    margin: 5px 7px;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    width: 50px;
+
+}
