@@ -62,7 +62,7 @@ export default function UniversityCard({
         swal.fire({
             html: 
             <div className={style.messageBody}>
-                <h3 className={style.messageBody__projectsTitle}>Projetos desenvolvidos:</h3>
+                <h3 className={style.messageBody__projectsTitle}>Projetos:</h3>
                 <div className={style.messageBody__projects}>
                     {
                         projects.map((project, index) =>
