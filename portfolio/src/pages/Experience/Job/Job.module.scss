@@ -3,6 +3,19 @@
 
 .card{
     
+    @media (max-width: $desktop_md) {
+        background-color: red;
+    }
+    @media (max-width: $desktop_sm) {
+        background-color: green;
+    }
+    @media (max-width: $desktop_xsm) {
+        background-color: yellow;
+    }
+    @media (max-width: $mobile) {
+        background-color: wheat;
+    }
+
     width: 70%;
     min-height: 320px;
     max-width: 720px;
@@ -23,6 +36,18 @@
         color: $orange;
         cursor: pointer;
         opacity: 0.8;
+        font-size: 1.2em;
+
+        @media (max-width: $desktop_sm) {
+            font-size: 1.4em;
+        }
+        @media (max-width: $desktop_xsm) {
+            font-size: 1.6em;
+        }
+        @media (max-width: $mobile) {
+            font-size: 1.8em;
+        }
+
     }
 
     &__library:hover{
@@ -37,12 +62,18 @@
     &__occupation{
         color: $purple;
         margin: 30px auto 10px auto;
+        @media (max-width: $mobile) {
+            margin: 15px auto 5px auto;
+        }
     }
 
     &__company{
         margin: 0 auto 20px auto;
         font-weight: normal;
         color: $light-purple;
+        @media (max-width: $mobile) {
+            margin: 0 auto 5px auto;
+        }
     }
 
     &__dates{
@@ -65,11 +96,18 @@
     &__description{
         color: $black;
         font-size: 0.7em;
+        @media (max-width: $mobile) {
+            font-size: 0.9em;
+        }
     }
 
     &__tools{
 
         width: 100%;
+
+        @media (max-width: $mobile) {
+            display: none;
+        }
 
         &__title{
             margin: 10px auto;
