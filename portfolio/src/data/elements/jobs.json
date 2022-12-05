@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "position": "Desenvolvedor Full-Stack Júnior",
+        "company": 1,
+        "start_date": "2020-10-01",
+        "final_date": "9999-12-31",
+        "description": "Empresa onde atuo e evoluo como desenvolvedor. Excelente ambiene onde pude ser apresentado a diversas áreas e técnologias, desenvolvendo assim meu conhecimento geral e ampliando meus horizontes como um desenvolvedor full stack. As principais atividades exercidas são: desenvolvimento de interfaces, criação e manipulação de bancos de dados relacionais e não relacionais, integração e criação de APIs."
+    },
+    {
+        "id": 2,
+        "position": "Técnico em Eletrônica",
+        "company": 2,
+        "start_date": "2016-06-01",
+        "final_date": "2018-09-30",
+        "description": "Empresa onde exerci a formação técnica em eletrônica, ótimo ambiente onde pude descobrir e desenvolver meu perfil profissional, um ambiente com ótimos profissionais das mais diversas áreas. As principais atividades exercidas eram: banho de verniz, acabamento em aparelhos intra auriculares, preparação eletrônica de dispositivos auriculares."
+    }
+]
