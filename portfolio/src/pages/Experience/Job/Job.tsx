@@ -2,8 +2,19 @@ import style from './Job.module.scss';
 import { ImBooks } from 'react-icons/im';
 import classNames from 'classnames';
 import TechToolMin from 'components/TechToolMin';
+import { Job } from 'types/Job';
+import { getCompanyName } from 'common/Library';
 
-export default function Jobs(){
+export default function Jobs(job : Job){
+
+    let currentJob = false;
+    const startDate = job.start_date.split('-').reverse().join('/');
+    const finalDate = job.final_date.split('-').reverse().join('/');
+
+    if(finalDate === '31/12/9999')
+        currentJob = true;
+
+
     return(
         <div className={style.card}>
             
@@ -16,23 +27,24 @@ export default function Jobs(){
             />
 
             <h2 className={style.card__occupation}>
-                Ocupação profissional
+                {job.position}
             </h2>
 
             <h3 className={style.card__company}>
-                Nome da empresa
+                { getCompanyName(job.company) }
             </h3>
 
             <div className={style.card__dates}>
                 <div className={style.card__dates__period}>
-                    <span>01/01/2022</span>
+                    <span>{startDate}</span>
                     -
-                    <span>31/12/2022</span>
+                    <span>{currentJob ? 'Até hoje' : finalDate}</span>
                 </div>
-                <span>(2 anos e 5 meses)</span>
             </div>
 
-            <p className={style.card__description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className={style.card__description}>
+                {job.description}
+            </p>
 
             <div className={style.card__tools}>
                 <h6 className={style.card__tools__title}>Tecnologias utilizadas:</h6>

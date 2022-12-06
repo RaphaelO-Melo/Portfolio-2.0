@@ -1,6 +1,7 @@
 import projects from 'data/elements/projects.json';
 import tools from 'data/elements/tools.json';
 import institutions from 'data/elements/institutions.json';
+import companyes from 'data/elements/companies.json';
 import { Tool } from 'types/Tool';
 import { Project } from 'types/Project';
 
@@ -97,5 +98,16 @@ export const getToolsFromInstituton = (id: number): number[] => {
     });
 
     return tools;
+
+};
+
+export const getCompanyName = (id: number): string => {
+
+    const found = companyes.find(currentCompany => currentCompany.id === id);
+
+    if(found === undefined)
+        return 'Não localizado';
+    else
+        return found.name;
 
 };
