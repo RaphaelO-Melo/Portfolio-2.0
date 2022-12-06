@@ -1,3 +1,3 @@
-import projects from 'data/graduation/projects.json';
+import projects from 'data/elements/projects.json';
 
 export type Project = typeof projects[0];

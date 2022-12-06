@@ -1,6 +1,6 @@
-import projects from 'data/graduation/projects.json';
-import tools from 'data/graduation/tools.json';
-import institutions from 'data/graduation/institutions.json';
+import projects from 'data/elements/projects.json';
+import tools from 'data/elements/tools.json';
+import institutions from 'data/elements/institutions.json';
 import { Tool } from 'types/Tool';
 import { Project } from 'types/Project';
 

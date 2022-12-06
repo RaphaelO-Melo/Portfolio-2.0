@@ -1,4 +1,4 @@
-import courses from 'data/graduation/courses.json';
+import courses from 'data/elements/courses.json';
 import UniversityCard from './UniversityCard';
 import CourseCard from './CourseCard';
 import style from './Graduation.module.scss';
