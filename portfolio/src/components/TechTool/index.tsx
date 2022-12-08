@@ -8,6 +8,9 @@ import {ReactComponent as LogoBootstrap} from 'assets/icons/bootstrap.svg';
 import {ReactComponent as LogoReact} from 'assets/icons/react.svg';
 import {ReactComponent as LogoSass} from 'assets/icons/sass.svg';
 import {ReactComponent as LogoTypescript} from 'assets/icons/typescript.svg';
+import {ReactComponent as LogoJQuery} from 'assets/icons/jquery.svg';
+import {ReactComponent as LogoMySQL} from 'assets/icons/mysql.svg';
+import {ReactComponent as LogoMongoDB} from 'assets/icons/mongodb.svg';
 
 import style from './TechTool.module.scss';
 
@@ -29,6 +32,9 @@ export default function TechTool({toolId} : Tool){
             {toolId === 8 ? <LogoReact width={'100%'} height={'100%'} /> : ''}
             {toolId === 9 ? <LogoTypescript width={'100%'} height={'100%'} /> : ''}
             {toolId === 10 ? <LogoSass width={'100%'} height={'100%'} /> : ''}
+            {toolId === 11 ? <LogoJQuery width={'100%'} height={'100%'} /> : ''}
+            {toolId === 12 ? <LogoMySQL width={'100%'} height={'100%'} /> : ''}
+            {toolId === 13 ? <LogoMongoDB width={'100%'} height={'100%'} /> : ''}
         </span>
     );
 }

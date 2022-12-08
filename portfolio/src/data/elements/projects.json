@@ -6,6 +6,7 @@
         "image": "/assets/projects/campoMinado.PNG",
         "link": "https://github.com/RaphaelO-Melo/P03-Minesweeper",
         "institution": 1,
+        "company": 0,
         "tools": [1]
     },
     {
@@ -15,6 +16,7 @@
         "image": "/assets/projects/bombeiros.PNG",
         "link": "https://github.com/RaphaelO-Melo/P04-Fire-Station",
         "institution": 1,
+        "company": 0,
         "tools": [1]
     },
     {
@@ -24,6 +26,7 @@
         "image": "/assets/projects/memorySimulator.PNG",
         "link": "https://github.com/RaphaelO-Melo/P05-MemorySimulator",
         "institution": 1,
+        "company": 0,
         "tools": [1]
     },
     {
@@ -33,6 +36,7 @@
         "image": "/assets/projects/intoTheDwarfness.PNG",
         "link": "https://github.com/Waffliors/Into-The-Dwarfness",
         "institution": 1,
+        "company": 0,
         "tools": [1]
     },
     {
@@ -42,6 +46,7 @@
         "image": "/assets/projects/questsOfWisllow.PNG",
         "link": "https://play.google.com/store/apps/details?id=com.Bugnatron.QuestsofWisllow",
         "institution": 1,
+        "company": 0,
         "tools": [5, 6]
     },
     {
@@ -51,6 +56,7 @@
         "image": "/assets/projects/unes.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_UNES",
         "institution": 4,
+        "company": 0,
         "tools": [2]
     },
     {
@@ -60,6 +66,7 @@
         "image": "/assets/projects/anna.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Modelo-Anna",
         "institution": 4,
+        "company": 0,
         "tools": [2, 3]
     },
     {
@@ -69,6 +76,7 @@
         "image": "/assets/projects/tecblog.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_TecBlog",
         "institution": 4,
+        "company": 0,
         "tools": [2, 3]
     },
     {
@@ -78,6 +86,7 @@
         "image": "/assets/projects/noticiasCidade.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Noticias-Cidade",
         "institution": 4,
+        "company": 0,
         "tools": [2, 3]
     },
     {
@@ -87,6 +96,7 @@
         "image": "/assets/projects/chaleHotel.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Chale-Hotel",
         "institution": 4,
+        "company": 0,
         "tools": [2, 3]
     },
     {
@@ -96,6 +106,7 @@
         "image": "/assets/projects/museuNacional.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Museu-Nacional",
         "institution": 4,
+        "company": 0,
         "tools": [2, 3]
     },
     {
@@ -105,6 +116,7 @@
         "image": "/assets/projects/finans.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Finans",
         "institution": 4,
+        "company": 0,
         "tools": [2, 3, 7]
     },
     {
@@ -114,6 +126,7 @@
         "image": "/assets/projects/spotify.PNG",
         "link": "https://github.com/RaphaelO-Melo/Site_Spotify",
         "institution": 4,
+        "company": 0,
         "tools": [2, 3, 7]
     },
     {
@@ -123,6 +136,7 @@
         "image": "/assets/projects/calculadora.PNG",
         "link": "https://github.com/RaphaelO-Melo/APP_Calculadora",
         "institution": 4,
+        "company": 0,
         "tools": [2, 3, 4, 7]
     },
     {
@@ -132,6 +146,7 @@
         "image": "/assets/projects/mataMosquito.PNG",
         "link": "https://github.com/RaphaelO-Melo/APP_Game-mata-mosquito",
         "institution": 4,
+        "company": 0,
         "tools": [2, 3, 4, 7]
     },
     {
@@ -141,6 +156,7 @@
         "image": "/assets/projects/aluraStudies.PNG",
         "link": "https://github.com/RaphaelO-Melo/Alura-Studies",
         "institution": 5,
+        "company": 0,
         "tools": [2, 3, 8, 9, 10]
     },
     {
@@ -150,6 +166,7 @@
         "image": "/assets/projects/aluroni.PNG",
         "link": "https://github.com/RaphaelO-Melo/Aluroni",
         "institution": 5,
+        "company": 0,
         "tools": [2, 3, 8, 9, 10]
     },
     {
@@ -159,6 +176,7 @@
         "image": "/assets/projects/doguito.PNG",
         "link": "https://github.com/RaphaelO-Melo/DoguitoPetshop",
         "institution": 5,
+        "company": 0,
         "tools": [2, 3, 8]
     },
     {
@@ -168,6 +186,7 @@
         "image": "/assets/projects/eventTracker.PNG",
         "link": "https://github.com/RaphaelO-Melo/EventTracker",
         "institution": 5,
+        "company": 0,
         "tools": [2, 3, 8, 9, 10]
     },
     {
@@ -177,6 +196,37 @@
         "image": "/assets/projects/reactContext.PNG",
         "link": "https://github.com/RaphaelO-Melo/ReactContext",
         "institution": 5,
+        "company": 0,
         "tools": [2, 3, 8]
+    },
+    {
+        "id": 21,
+        "name": "AtimoPay",
+        "description": "Projeto desenvolvido para estudar o controle de estados globais no React. A aplicação simula um marketplace onde o usuário pode comprar produtos orgânicos através de um saldo inicial. O usuário pode adicionar e remover os produtos do carrinho e ao chegar ao checkout seleciona os meios de pagamentos disponíveis onde são aplicados os juros. O objetivo principal é aprimorar o conhecimento em estados globais no React através do uso de contextos com Context API.",
+        "image": "/assets/projects/atimopay.PNG",
+        "link": "https://atimopay.com.br/portal/",
+        "institution": 5,
+        "company": 1,
+        "tools": [2, 3, 4, 7, 11, 12]
+    },
+    {
+        "id": 22,
+        "name": "Gokei PSTI",
+        "description": "Projeto desenvolvido para estudar o controle de estados globais no React. A aplicação simula um marketplace onde o usuário pode comprar produtos orgânicos através de um saldo inicial. O usuário pode adicionar e remover os produtos do carrinho e ao chegar ao checkout seleciona os meios de pagamentos disponíveis onde são aplicados os juros. O objetivo principal é aprimorar o conhecimento em estados globais no React através do uso de contextos com Context API.",
+        "image": "/assets/projects/gokei.PNG",
+        "link": "https://gokeitecnologia.com.br/",
+        "institution": 5,
+        "company": 1,
+        "tools": [1, 13]
+    },
+    {
+        "id": 23,
+        "name": "Cont@Use",
+        "description": "Projeto desenvolvido para estudar o controle de estados globais no React. A aplicação simula um marketplace onde o usuário pode comprar produtos orgânicos através de um saldo inicial. O usuário pode adicionar e remover os produtos do carrinho e ao chegar ao checkout seleciona os meios de pagamentos disponíveis onde são aplicados os juros. O objetivo principal é aprimorar o conhecimento em estados globais no React através do uso de contextos com Context API.",
+        "image": "/assets/projects/contause.png",
+        "link": "https://www.casadocredito.com.br/contause/",
+        "institution": 5,
+        "company": 1,
+        "tools": [2, 3, 4, 7, 11, 12]
     }
 ]

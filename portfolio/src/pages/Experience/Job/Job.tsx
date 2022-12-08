@@ -3,13 +3,14 @@ import { ImBooks } from 'react-icons/im';
 import classNames from 'classnames';
 import TechToolMin from 'components/TechToolMin';
 import { Job } from 'types/Job';
-import { getCompanyName } from 'common/Library';
+import { getCompanyName, getToolsFromCompany } from 'common/Library';
 
 export default function Jobs(job : Job){
 
     let currentJob = false;
     const startDate = job.start_date.split('-').reverse().join('/');
     const finalDate = job.final_date.split('-').reverse().join('/');
+    const tools = getToolsFromCompany(job.id);
 
     if(finalDate === '31/12/9999')
         currentJob = true;
@@ -46,15 +47,19 @@ export default function Jobs(job : Job){
                 {job.description}
             </p>
 
-            <div className={style.card__tools}>
-                <h6 className={style.card__tools__title}>Tecnologias utilizadas:</h6>
-                <div className={style.card__tools__icons}>
-                    <TechToolMin key={1} toolId={1} />
-                    <TechToolMin key={2} toolId={2} />
-                    <TechToolMin key={3} toolId={3} />
-                    <TechToolMin key={4} toolId={4} />
-                </div>
-            </div>
+            {
+                tools.length > 0 ? 
+                    <div className={style.card__tools}>
+                        <h6 className={style.card__tools__title}>Tecnologias utilizadas:</h6>
+                        <div className={style.card__tools__icons}>
+                            {tools.map(tool => (
+                                <TechToolMin key={tool} toolId={tool} />
+                            ))}
+                        </div>
+                    </div>
+                    : 
+                    ''
+            }
 
         </div>
     );

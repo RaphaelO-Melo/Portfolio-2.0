@@ -6,7 +6,6 @@ import Jobs from 'data/elements/jobs.json';
 export default function Experience(){
     return(
         <section className={style.containerContent}>
-
             {
                 Jobs.map((currentJob, index) => (
                     <Job key={index} {...currentJob}/>

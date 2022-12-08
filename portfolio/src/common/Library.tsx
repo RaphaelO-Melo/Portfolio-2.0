@@ -77,6 +77,7 @@ export const getProject = (id: number): Project => {
             'image': '',
             'link': '',
             'institution': 0,
+            'company': 0,
             'tools': []
         };
 
@@ -109,5 +110,20 @@ export const getCompanyName = (id: number): string => {
         return 'Não localizado';
     else
         return found.name;
+
+};
+
+export const getToolsFromCompany = (id: number): number[] => {
+
+    const tools: number[] = [];
+    const companyProjects = projects.filter(current => current.company === id);
+    companyProjects.forEach(project => {
+        project.tools.forEach(tool => {
+            if(!tools.includes(tool))
+                tools.push(tool);
+        });
+    });
+
+    return tools;
 
 };
