@@ -127,3 +127,10 @@ export const getToolsFromCompany = (id: number): number[] => {
     return tools;
 
 };
+
+export const getProjectsFromCompany = (id: number): Project[] => {
+
+    const companyProjects = projects.filter(current => current.company === id);
+    return companyProjects;
+
+};

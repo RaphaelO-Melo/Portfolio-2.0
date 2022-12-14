@@ -3,24 +3,48 @@ import { ImBooks } from 'react-icons/im';
 import classNames from 'classnames';
 import TechToolMin from 'components/TechToolMin';
 import { Job } from 'types/Job';
-import { getCompanyName, getToolsFromCompany } from 'common/Library';
+import { getCompanyName, getToolsFromCompany, getProjectsFromCompany, getProjectName } from 'common/Library';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
 
 export default function Jobs(job : Job){
 
+    const swal = withReactContent(Swal);
     let currentJob = false;
     const startDate = job.start_date.split('-').reverse().join('/');
     const finalDate = job.final_date.split('-').reverse().join('/');
     const tools = getToolsFromCompany(job.id);
+    const projects = getProjectsFromCompany(job.id);
 
     if(finalDate === '31/12/9999')
         currentJob = true;
+
+    function showJobProjects(){
+        swal.fire({
+            html: 
+            <div className={style.messageBody}>
+                <h3 className={style.messageBody__projectsTitle}>Projetos:</h3>
+                <div className={style.messageBody__projects}>
+                    {
+                        projects.map((project, index) =>
+                            <a className={style.messageBody__projects__project} key={index} href={'/project/'+project.id}>
+                                {getProjectName(project.id)}
+                            </a>
+                        )
+                    }
+                </div>
+            </div>,
+            confirmButtonText: 'Fechar',
+            customClass: 'message'
+        });
+    }
 
 
     return(
         <div className={style.card}>
             
             <ImBooks 
-                onClick={() => alert('Projetos')}
+                onClick={() => showJobProjects()}
                 className={classNames({
                     [style.card__library] : true,
                     [style['card__library--disabled']] : 1 <= 0

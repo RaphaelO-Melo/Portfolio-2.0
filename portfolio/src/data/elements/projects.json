@@ -202,7 +202,7 @@
     {
         "id": 21,
         "name": "AtimoPay",
-        "description": "Projeto desenvolvido para estudar o controle de estados globais no React. A aplicação simula um marketplace onde o usuário pode comprar produtos orgânicos através de um saldo inicial. O usuário pode adicionar e remover os produtos do carrinho e ao chegar ao checkout seleciona os meios de pagamentos disponíveis onde são aplicados os juros. O objetivo principal é aprimorar o conhecimento em estados globais no React através do uso de contextos com Context API.",
+        "description": "Descrição",
         "image": "/assets/projects/atimopay.PNG",
         "link": "https://atimopay.com.br/portal/",
         "institution": 5,
@@ -212,7 +212,7 @@
     {
         "id": 22,
         "name": "Gokei PSTI",
-        "description": "Projeto desenvolvido para estudar o controle de estados globais no React. A aplicação simula um marketplace onde o usuário pode comprar produtos orgânicos através de um saldo inicial. O usuário pode adicionar e remover os produtos do carrinho e ao chegar ao checkout seleciona os meios de pagamentos disponíveis onde são aplicados os juros. O objetivo principal é aprimorar o conhecimento em estados globais no React através do uso de contextos com Context API.",
+        "description": "Descrição",
         "image": "/assets/projects/gokei.PNG",
         "link": "https://gokeitecnologia.com.br/",
         "institution": 5,
@@ -222,7 +222,7 @@
     {
         "id": 23,
         "name": "Cont@Use",
-        "description": "Projeto desenvolvido para estudar o controle de estados globais no React. A aplicação simula um marketplace onde o usuário pode comprar produtos orgânicos através de um saldo inicial. O usuário pode adicionar e remover os produtos do carrinho e ao chegar ao checkout seleciona os meios de pagamentos disponíveis onde são aplicados os juros. O objetivo principal é aprimorar o conhecimento em estados globais no React através do uso de contextos com Context API.",
+        "description": "Descrição",
         "image": "/assets/projects/contause.png",
         "link": "https://www.casadocredito.com.br/contause/",
         "institution": 5,
