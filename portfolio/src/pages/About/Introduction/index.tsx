@@ -7,7 +7,7 @@ export default function Introduction(){
                 Olá!
             </h1>
             <div className={style.content__photo}>
-                <img src="./assets/perfil.png" alt="" />
+                <img src="./assets/perfil.jpg" alt="" />
             </div>
             <p className={style.content__text}>
                 Meu nome é <span className={style.content__text__highlight}>Raphael Melo</span>, sou um desenvolvedor Full Stack e você acabou de entrar no meu portfólio. Que tal conhecer um pouco mais sobre meu trabalho?
